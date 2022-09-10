@@ -1,0 +1,1264 @@
+
+C:\src\OpenGL\NeHe_Lesson01-master>echo "Directory des sources : C:\src\OpenGL\NeHe_Lesson01-master" 
+"Directory des sources : C:\src\OpenGL\NeHe_Lesson01-master"
+
+C:\src\OpenGL\NeHe_Lesson01-master>echo "Nom de l'application  : Lesson01" 
+"Nom de l'application  : Lesson01"
+        1 fichier(s) copiÇ(s).
+-- Setting BCC flags to compile and link
+-- The C compiler identification is Borland 5.51
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/BCC55/bin/bcc32.exe
+-- Check for working C compiler: C:/BCC55/bin/bcc32.exe - works
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/BC55/Debug
+-- Setting BCC flags to compile and link
+-- The C compiler identification is Borland 5.51
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/BCC55/bin/bcc32.exe
+-- Check for working C compiler: C:/BCC55/bin/bcc32.exe - works
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/BC55/Release
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+Scanning dependencies of target Lesson01
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+[ 50%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c:
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binBC55\Debug\Lesson01.exe
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+[100%] Built target Lesson01
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+Scanning dependencies of target Lesson01
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+[ 50%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c:
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binBC55\Release\Lesson01.exe
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with Mingw32 (Official)
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32OF/Debug
+-- Setting GCC flags to compile and link with Mingw32 (Official)
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32OF/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw32of\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw32of\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with Red Panada DEVC++
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/RedPanda-Cpp/MinGW64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/DEVCPP/Debug
+-- Setting GCC flags to compile and link with Red Panada DEVC++
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/RedPanda-Cpp/MinGW64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/DEVCPP/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binDevCpp\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binDevCpp\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link for Mingw64 included in Code::Blocks
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/CodeBlocks/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW64CB/Debug
+-- Setting GCC flags to compile and link for Mingw64 included in Code::Blocks
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/CodeBlocks/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW64CB/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw64CB\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw64CB\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Debug
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Release
+Scanning dependencies of target Lesson01
+Consolidate compiler generated dependencies of target Lesson01
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+Consolidate compiler generated dependencies of target Lesson01
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Debug
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Release
+Scanning dependencies of target Lesson01
+Consolidate compiler generated dependencies of target Lesson01
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+Consolidate compiler generated dependencies of target Lesson01
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with MINGW32 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32WL/Debug
+-- Setting GCC flags to compile and link with MINGW32 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32WL/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw32wl\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw32wl\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link for MinGW64 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW64WL/Debug
+-- Setting GCC flags to compile and link for MinGW64 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW64WL/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw64wl\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binMingw64wl\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with MSYS2/Mingw32
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MSYS2W32/Debug
+-- Setting GCC flags to compile and link with MSYS2/Mingw32
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MSYS2W32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson01-master/binMSYS2W32/Debug/Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson01-master/binMSYS2W32/Release/Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with MSYS2/Mingw64
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MSYS2W64/Debug
+-- Setting GCC flags to compile and link with MSYS2/Mingw64
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MSYS2W64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson01-master/binMSYS2W64/Debug/Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson01-master/binMSYS2W64/Release/Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with TDM 32 bits
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/TDM32/Debug
+-- Setting GCC flags to compile and link with TDM 32 bits
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/TDM32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binTDMW32\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binTDMW32\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting GCC flags to compile and link with TDM64
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/TDM64/Debug
+-- Setting GCC flags to compile and link with TDM64
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/TDM64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binTDMW64\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binTDMW64\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting MSVC flags to NMAKE 32 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/NmakeX32/Debug
+-- Setting MSVC flags to NMAKE 32 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/NmakeX32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Lesson01.c
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Lesson01.c
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting MSVC flags to NMAKE 64 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/NmakeX64/Debug
+-- Setting MSVC flags to NMAKE 64 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/NmakeX64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Lesson01.c
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+Lesson01.c
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting MSVC flags Visual C/C++ 32 bits (VS2022 Community)
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows .
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X32
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:48.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "Debug|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "Debug|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\Debug\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\Debug\\" /Fd"Lesson01.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D _DEBUG /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson01.dir\Debug\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Debug\Lesson01.exe" /INCREMENTAL /ILK:"Lesson01.dir\Debug\Lesson01.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\debug\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/Debug/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/Debug/Lesson01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson01.dir\Debug\Lesson01.res
+         Lesson01.dir\Debug\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Debug\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Debug\Lesson01.exe" "C:\src\vcpkg\installed\\x86-windows\debug\bin" "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\Debug\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:03.13
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:51.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "MinSizeRel|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "MinSizeRel|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\MinSizeRel\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /W1 /WX- /diagnostics:column /O1 /Ob1 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"MinSizeRel\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\MinSizeRel\\" /Fd"Lesson01.dir\MinSizeRel\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"MinSizeRel\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson01.dir\MinSizeRel\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\MinSizeRel\Lesson01.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/MinSizeRel/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/MinSizeRel/Lesson01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson01.dir\MinSizeRel\Lesson01.res
+         Lesson01.dir\MinSizeRel\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\MinSizeRel\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\MinSizeRel\Lesson01.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\MinSizeRel\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\MinSizeRel\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:03.01
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:54.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "Release|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "Release|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\Release\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\Release\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /W1 /WX- /diagnostics:column /O2 /Ob2 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\Release\\" /Fd"Lesson01.dir\Release\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson01.dir\Release\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Release\Lesson01.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/Release/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/Release/Lesson01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson01.dir\Release\Lesson01.res
+         Lesson01.dir\Release\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Release\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\Release\Lesson01.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson01.dir\Release\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\Release\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\Release\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\Release\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:03.01
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:57.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "RelWithDebInfo|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "RelWithDebInfo|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /O2 /Ob1 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\RelWithDebInfo\\" /Fd"Lesson01.dir\RelWithDebInfo\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"RelWithDebInfo\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson01.dir\RelWithDebInfo\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\RelWithDebInfo\Lesson01.exe" /INCREMENTAL /ILK:"Lesson01.dir\RelWithDebInfo\Lesson01.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/RelWithDebInfo/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X32/RelWithDebInfo/Lesson01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson01.dir\RelWithDebInfo\Lesson01.res
+         Lesson01.dir\RelWithDebInfo\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\RelWithDebInfo\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X32\RelWithDebInfo\Lesson01.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\RelWithDebInfo\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:03.06
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+-- Setting MSVC flags Visual C/C++ 64 bits (VS2022 Community)
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows .
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X64
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:06.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "Debug|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "Debug|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\Debug\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\Debug\\" /Fd"Lesson01.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D _DEBUG /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson01.dir\Debug\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Debug\Lesson01.exe" /INCREMENTAL /ILK:"Lesson01.dir\Debug\Lesson01.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\debug\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/Debug/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/Debug/Lesson01.lib" /MACHINE:X64  /machine:x64 Lesson01.dir\Debug\Lesson01.res
+         Lesson01.dir\Debug\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Debug\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Debug\Lesson01.exe" "C:\src\vcpkg\installed\\x64-windows\debug\bin" "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\Debug\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\Debug\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:02.98
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:09.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "MinSizeRel|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "MinSizeRel|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\MinSizeRel\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /W1 /WX- /diagnostics:column /O1 /Ob1 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"MinSizeRel\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\MinSizeRel\\" /Fd"Lesson01.dir\MinSizeRel\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"MinSizeRel\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson01.dir\MinSizeRel\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\MinSizeRel\Lesson01.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/MinSizeRel/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/MinSizeRel/Lesson01.lib" /MACHINE:X64  /machine:x64 Lesson01.dir\MinSizeRel\Lesson01.res
+         Lesson01.dir\MinSizeRel\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\MinSizeRel\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\MinSizeRel\Lesson01.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\MinSizeRel\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\MinSizeRel\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\MinSizeRel\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:02.87
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:12.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "Release|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "Release|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\Release\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\Release\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /W1 /WX- /diagnostics:column /O2 /Ob2 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\Release\\" /Fd"Lesson01.dir\Release\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson01.dir\Release\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Release\Lesson01.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/Release/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/Release/Lesson01.lib" /MACHINE:X64  /machine:x64 Lesson01.dir\Release\Lesson01.res
+         Lesson01.dir\Release\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Release\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\Release\Lesson01.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson01.dir\Release\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\Release\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\Release\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\Release\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:02.94
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:16.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         GÇnÇration de la configuration de solution "RelWithDebInfo|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas sÇlectionnÇ dans le cadre d'une gÇnÇration dans la configuration de solution "RelWithDebInfo|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" (1) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>_PrepareForClean:
+         Suppression du fichier "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" terminÇe (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" (2) gÇnäre "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>_PrepareForClean:
+         Suppression du fichier "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.lastbuildstate".
+       InitializeBuildStatus:
+         CrÇation de "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\unsuccessfulbuild", car "AlwaysCreate" a ÇtÇ spÇcifiÇ.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson01-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /O2 /Ob1 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson01.dir\RelWithDebInfo\\" /Fd"Lesson01.dir\RelWithDebInfo\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c"
+         Lesson01.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"RelWithDebInfo\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson01.dir\RelWithDebInfo\Lesson01.res" "C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\RelWithDebInfo\Lesson01.exe" /INCREMENTAL /ILK:"Lesson01.dir\RelWithDebInfo\Lesson01.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/RelWithDebInfo/Lesson01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson01-master/binVS2022X64/RelWithDebInfo/Lesson01.lib" /MACHINE:X64  /machine:x64 Lesson01.dir\RelWithDebInfo\Lesson01.res
+         Lesson01.dir\RelWithDebInfo\Lesson01.obj
+         Lesson01.vcxproj -> C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\RelWithDebInfo\Lesson01.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson01-master\binVS2022X64\RelWithDebInfo\Lesson01.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.write.1u.tlog" "Lesson01.dir\RelWithDebInfo\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\unsuccessfulbuild".
+         Mise Ö jour de l'horodatage "Lesson01.dir\RelWithDebInfo\Lesson01.tlog\Lesson01.lastbuildstate".
+     4>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj" terminÇe (Rebuild cible(s)).
+     2>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.vcxproj.metaproj" terminÇe (Rebuild cible(s)).
+     1>GÇnÇration du projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" terminÇe (Lesson01:rebuild cible(s)).
+
+La gÇnÇration a rÇussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ÇcoulÇ 00:00:02.87
+        1 fichier(s) copiÇ(s).
+
+RêUSSITEˇ: la valeur spÇcifiÇe a ÇtÇ enregistrÇe.
+
+RêUSSITEˇ: la valeur spÇcifiÇe a ÇtÇ enregistrÇe.
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with MSVC 32 bits
+-- The C compiler identification is Clang 14.0.6 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGX32/Debug
+-- Setting CLANG flags with MSVC 32 bits
+-- The C compiler identification is Clang 14.0.6 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGX32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGX32\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGX32\Release\Lesson01.exe
+[100%] Built target Lesson01
+L'opÇration a rÇussi.
+L'opÇration a rÇussi.
+
+RêUSSITEˇ: la valeur spÇcifiÇe a ÇtÇ enregistrÇe.
+
+RêUSSITEˇ: la valeur spÇcifiÇe a ÇtÇ enregistrÇe.
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with MSVC 64 bits
+-- The C compiler identification is Clang 14.0.6 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGX64/Debug
+-- Setting CLANG flags with MSVC 64 bits
+-- The C compiler identification is Clang 14.0.6 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGX64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGX64\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGX64\Release\Lesson01.exe
+[100%] Built target Lesson01
+L'opÇration a rÇussi.
+L'opÇration a rÇussi.
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGW32/Debug
+-- Setting CLANG flags with Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGW32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGW32\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGW32\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGW64/Debug
+-- Setting CLANG flags with Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGW64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGW64\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGW64\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with MSYS/Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGMW32/Debug
+-- Setting CLANG flags with MSYS/Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGMW32/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGMW32\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGMW32\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+-- Setting CLANG flags with MSYS/Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGMW64/Debug
+-- Setting CLANG flags with MSYS/Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CLANGMW64/Release
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGMW64\Debug\Lesson01.exe
+[100%] Built target Lesson01
+Scanning dependencies of target Lesson01
+[ 33%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson01.dir/src/Lesson01.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binCLANGMW64\Release\Lesson01.exe
+[100%] Built target Lesson01
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+rcc -32 -IC:\dm\include\win32 -IC:\dm\include -oLesson01.res  src\Lesson01.rc 
+
+dmc -mn -c -WA -H -g -D_DEBUG -DDEBUG -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include  -oLesson01.obj src\Lesson01.c
+
+link /NOLOGO /subsystem:windows Lesson01.obj, Lesson01.exe, , glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib, , Lesson01.res 
+
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+rcc -32 -IC:\dm\include\win32 -IC:\dm\include -oLesson01.res  src\Lesson01.rc 
+
+dmc -mn -c -WA -H -DNDEBUG -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include  -oLesson01.obj src\Lesson01.c
+
+link /NOLOGO /subsystem:windows Lesson01.obj, Lesson01.exe, , glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib, , Lesson01.res 
+
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+    lrc -IC:\lcc\include src\Lesson01.rc -IC:\lcc\include
+    lcc -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc\include
+    lcclnk Lesson01.obj Lesson01.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.16 seconds
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+    lrc -IC:\lcc\include src\Lesson01.rc -IC:\lcc\include
+    lcc -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc\include
+    lcclnk Lesson01.obj Lesson01.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.14 seconds
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+    lrc -IC:\lcc64\include64 src\Lesson01.rc -IC:\lcc64\include64
+    lcc64 -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc64\include64
+    lcclnk64 Lesson01.obj Lesson01.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.016 seconds
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+    lrc -IC:\lcc64\include64 src\Lesson01.rc -IC:\lcc64\include64
+    lcc64 -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc64\include64
+    lcclnk64 Lesson01.obj Lesson01.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.016 seconds
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson01.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.res
+	pocc /nologo /Zi /Ze /c /D_DEBUG /DDEBUG /DWIN32_LEAN_AND_MEAN -Tx86-coff /D_X86_ src\Lesson01.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.obj
+	polink /nologo /subsystem:windows /debug /MACHINE:X86 Lesson01.obj Lesson01.res /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Writing debug information
+Compacting debug information
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson01.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.res
+	pocc /nologo /Zi /Ze /c /DNDEBUG /DWIN32_LEAN_AND_MEAN -Tx86-coff /D_X86_ src\Lesson01.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.obj
+	polink /nologo /subsystem:windows /MACHINE:X86 Lesson01.obj Lesson01.res /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson01.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.res
+	pocc /nologo /Zi /Ze /c /D_DEBUG /DDEBUG /DWIN32_LEAN_AND_MEAN -Tx64-coff /D_AMD64_ /D_WIN64 src\Lesson01.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.obj
+	polink /nologo /subsystem:windows /debug /MACHINE:X64 Lesson01.obj Lesson01.res /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Writing debug information
+Compacting debug information
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson01.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.res
+	pocc /nologo /Zi /Ze /c /DNDEBUG /DWIN32_LEAN_AND_MEAN -Tx64-coff /D_AMD64_ /D_WIN64 src\Lesson01.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson01.obj
+	polink /nologo /subsystem:windows /MACHINE:X64 Lesson01.obj Lesson01.res /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:22:17 (32-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson01.rc -foLesson01.res
+	wcl386 -q -c -dDEBUG -d_DEBUG -bcl=nt src\Lesson01.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson01.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson01.obj name Lesson01.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson01.res
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:22:17 (32-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson01.rc -foLesson01.res
+	wcl386 -q -c -dNDEBUG -bcl=nt src\Lesson01.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson01.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson01.obj name Lesson01.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson01.res
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+        1 fichier(s) copiÇ(s).
+        1 fichier(s) copiÇ(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:38:10 (64-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson01.rc -foLesson01.res
+	wcl386 -q -c -dDEBUG -d_DEBUG -bcl=nt src\Lesson01.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson01.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson01.obj name Lesson01.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson01.res
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:38:10 (64-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson01.rc -foLesson01.res
+	wcl386 -q -c -dNDEBUG -bcl=nt src\Lesson01.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson01.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson01.obj name Lesson01.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson01.res
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
