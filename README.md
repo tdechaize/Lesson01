@@ -48,3 +48,22 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 
     TDE -> Add resource file end resource header for restitute version + icon OpenGL.ico for fun
 			because versionning is important, same for freeware :-) !
+
+Vous trouverez ci-dessous, un sommaire pour aller azncore plus loin dans les explications :
+
+# Lesson01
+
+## Table of contents
+
+- [Introduction](<Introduction.md>)
+  - [Accueil](<Accueil.md>)
+  - [Quoi de neuf](<Quoideneuf.md>)
+- [Comment démarrer une génération ?](<Commentdemarrerunegeneration.md>)
+  - [Exigences du système](<Exigencesdusysteme.md>)
+  - [Lancement d'une génération CB](<LancementdunegenerationCB.md>)
+ 
+Enfin, je vous conseille aussi, si vous n'êtes pas à l'aise avec l'environnement de développement CB de bien configurer les compilateurs dans cet outil, avec l'aide du fichier suivant : Code_Blocks_How_config_free_compilers_windows_11.txt.
+
+En partant de zéro (machine Windows "vierge" sans logiciel), certes, il y a beaucoup d'installations et de configurations, mais, sans un peu de volonté et en suivant les instructions, il est possible d'aboutir à un résultat probant.
+
+Bon courage. Good luck.
