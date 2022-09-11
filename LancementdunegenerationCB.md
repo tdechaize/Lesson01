@@ -2,7 +2,7 @@
 
 Pour générer les exécutables attendus, plusieurs options :
 
-&nbsp;- la première très simple, on ouvre le wokrspace ou le projet CB (.ie. "Lesson"nn".workspace" or&nbsp; "Lesson"nn".cbp"), puis on clique sur "rebuild", en ayant sélectionné soit la "virtual traget" -\> 'All build', soit un des "real target" : 'Debug DMC' (par exemple),
+&nbsp;- la première très simple, on ouvre le wokrspace ou le projet CB (.ie. "Lesson"nn".workspace" or&nbsp; "Lesson"nn".cbp"), puis on clique sur "rebuild", en ayant sélectionné soit la "virtual target" -\> 'All build', soit un des "real target" : 'Debug DMC' (par exemple),
 
 &nbsp;- la deuxième est d'utiliser le fichier de commande fourni : generate\_all\_with\_cmake.bat avec comme paramètres :
 
