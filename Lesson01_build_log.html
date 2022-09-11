@@ -4,20 +4,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body>
 <tt>
-Build started on: <u>09-09-2022 at 14:54.47</u><br />
-Build ended on: <u>09-09-2022 at 14:54.48</u><p />
-<b>-------------- Build: Release BorlandC in Lesson01 (compiler: Borland C++ Compiler (5.5, 5.82))---------------</b><br />
-bcc32.exe -q  -tW -6 -v- -DNDEBUG    -IC:\BCC55\include -oobjBC55\Release\src\Lesson01.obj -c src\Lesson01.c<br />
-brcc32.exe -32 -foobjBC55\Release\src\Lesson01.res -IC:\BCC55\include  src\Lesson01.rc<br />
-Borland Resource Compiler  Version 5.40<br />
-Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.<br />
-src\Lesson01.c:<br />
-Warning W8057 src\Lesson01.c 207: Parameter 'hPrevInstance' is never used in function WinMain<br />
-Warning W8057 src\Lesson01.c 207: Parameter 'lpCmdLine' is never used in function WinMain<br />
-ilink32.exe -q -aa   -LC:\BCC55\lib -LC:\BCC55\lib\psdk c0w32 objBC55\Release\src\Lesson01.obj,binBC55\Release\Lesson01.exe,,cw32mti.lib opengl32.lib glu32.lib cw32.lib gdi32.lib advapi32.lib comdlg32.lib winmm.lib user32.lib import32.lib,, objBC55\Release\src\Lesson01.res<br />
-Output file is binBC55\Release\Lesson01.exe with size 16.50 KB<br />
-<font color="#0000ff">Process terminated with status 0 (0 minute(s), 0 second(s))</font><br />
-<font color="#0000ff">0 error(s), 0 warning(s) (0 minute(s), 0 second(s))</font><br />
+Build started on: <u>11-09-2022 at 15:41.04</u><br />
+Build ended on: <u>11-09-2022 at 15:41.07</u><p />
+<b>-------------- Build: Debug CYGWIN 64 in Lesson01 (compiler: Cygwin GCC 64)---------------</b><br />
+x86_64-w64-mingw32-gcc.exe -march=core2 -g -D_DEBUG -DDEBUG -m64 -D_WIN64 -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include -c C:/src/OpenGL/NeHe_Lesson01-master/src/Lesson01.c -o objCYGWIN64/Debug/src/Lesson01.o<br />
+x86_64-w64-mingw32-windres.exe -IC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/include  -J rc -O coff -i C:/src/OpenGL/NeHe_Lesson01-master/src/Lesson01.rc -o objCYGWIN64/Debug/src/Lesson01.res<br />
+x86_64-w64-mingw32-gcc.exe -LC:/cygwin64/usr/x86_64-w64-mingw32/sys-root/mingw/lib -o binCYGWIN64/Debug/Lesson01.exe objCYGWIN64/Debug/src/Lesson01.o  objCYGWIN64/Debug/src/Lesson01.res -mwindows -m64  -lglu32 -lopengl32 -mwindows<br />
+Output file is binCYGWIN64\Debug\Lesson01.exe with size 152.45 KB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 2 second(s))</font><br />
+<font color="#0000ff">0 error(s), 0 warning(s) (0 minute(s), 2 second(s))</font><br />
 </tt>
 </body>
 </html>

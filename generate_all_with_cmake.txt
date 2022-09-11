@@ -5,46 +5,34 @@ C:\src\OpenGL\NeHe_Lesson01-master>echo "Directory des sources : C:\src\OpenGL\N
 C:\src\OpenGL\NeHe_Lesson01-master>echo "Nom de l'application  : Lesson01" 
 "Nom de l'application  : Lesson01"
         1 fichier(s) copiÇ(s).
--- Setting BCC flags to compile and link
--- The C compiler identification is Borland 5.51
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: C:/BCC55/bin/bcc32.exe
--- Check for working C compiler: C:/BCC55/bin/bcc32.exe - works
--- Configuring done
--- Generating done
--- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/BC55/Debug
--- Setting BCC flags to compile and link
--- The C compiler identification is Borland 5.51
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: C:/BCC55/bin/bcc32.exe
--- Check for working C compiler: C:/BCC55/bin/bcc32.exe - works
--- Configuring done
--- Generating done
--- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/BC55/Release
 MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-Scanning dependencies of target Lesson01
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-[ 50%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
+	brc32 -X -R -I"C:\BCC55\include" -foLesson01.res src\Lesson01.rc 
+Borland Resource Compiler  Version 5.40
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.
+	bcc32 -c -tWM- -w -w-par -w-inl -W -a1 -Od -6 -D_DEBUG -DDEBUG -oLesson01.obj src\Lesson01.c
 Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
-C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c:
-[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binBC55\Debug\Lesson01.exe
+src\Lesson01.c:
+	ilink32 -q -aa -V4.0 -c -x -Gn -v -L"C:\Bcc55\lib\psdk" -L"C:\BCC55\lib" c0w32.obj Lesson01.obj, Lesson01.exe, , import32.lib cw32mti.lib , , Lesson01.res 
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	brc32 -X -R -I"C:\BCC55\include" -foLesson01.res src\Lesson01.rc 
+Borland Resource Compiler  Version 5.40
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.
+	bcc32 -c -tWM- -w -w-par -w-inl -W -a1 -O2 -6 -DNDEBUG -oLesson01.obj src\Lesson01.c
 Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
-[100%] Built target Lesson01
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-Scanning dependencies of target Lesson01
-MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
-[ 50%] Building C object CMakeFiles/Lesson01.dir/src/Lesson01.c.obj
-Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
-C:\src\OpenGL\NeHe_Lesson01-master\src\Lesson01.c:
-[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson01-master\binBC55\Release\Lesson01.exe
-Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
-[100%] Built target Lesson01
+src\Lesson01.c:
+	ilink32 -q -aa -V4.0 -c -x -Gn -L"C:\Bcc55\lib\psdk" -L"C:\BCC55\lib" c0w32.obj Lesson01.obj, Lesson01.exe, , import32.lib cw32mti.lib , , Lesson01.res 
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.exe
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.obj
+        1 fichier(s) dÇplacÇ(s).
+C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
+        1 fichier(s) dÇplacÇ(s).
         1 fichier(s) copiÇ(s).
 -- Setting GCC flags to compile and link with Mingw32 (Official)
 -- The C compiler identification is GNU 9.2.0
@@ -143,22 +131,22 @@ Scanning dependencies of target Lesson01
 -- The C compiler identification is GNU 11.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Check for working C compiler: C:/cygwin64/bin/i686-w64-mingw32-gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Debug
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Debug
 -- Setting GCC flags to compile and link
 -- The C compiler identification is GNU 11.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Check for working C compiler: C:/cygwin64/bin/i686-w64-mingw32-gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Release
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN32/Release
 Scanning dependencies of target Lesson01
 Consolidate compiler generated dependencies of target Lesson01
 [100%] Built target Lesson01
@@ -170,22 +158,22 @@ Consolidate compiler generated dependencies of target Lesson01
 -- The C compiler identification is GNU 11.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Debug
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Debug
 -- Setting GCC flags to compile and link
 -- The C compiler identification is GNU 11.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/gcc.exe - skipped
+-- Check for working C compiler: C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Release
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/CYGWIN64/Release
 Scanning dependencies of target Lesson01
 Consolidate compiler generated dependencies of target Lesson01
 [100%] Built target Lesson01
@@ -469,7 +457,7 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 -- Generating done
 -- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X32
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:48.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:45:44.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "Debug|Win32".
@@ -518,9 +506,9 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:03.13
+Temps ÇcoulÇ 00:00:03.26
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:51.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:45:47.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "MinSizeRel|Win32".
@@ -569,9 +557,9 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:03.01
+Temps ÇcoulÇ 00:00:02.99
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:54.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:45:51.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "Release|Win32".
@@ -620,9 +608,9 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:03.01
+Temps ÇcoulÇ 00:00:02.97
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:22:57.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:45:54.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X32\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "RelWithDebInfo|Win32".
@@ -671,7 +659,7 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:03.06
+Temps ÇcoulÇ 00:00:03.43
         1 fichier(s) copiÇ(s).
         1 fichier(s) copiÇ(s).
 -- Setting MSVC flags Visual C/C++ 64 bits (VS2022 Community)
@@ -686,7 +674,7 @@ Temps ÇcoulÇ 00:00:03.06
 -- Generating done
 -- Build files have been written to: C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X64
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:06.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:46:03.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "Debug|x64".
@@ -737,7 +725,7 @@ La gÇnÇration a rÇussi.
 
 Temps ÇcoulÇ 00:00:02.98
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:09.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:46:06.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "MinSizeRel|x64".
@@ -786,9 +774,9 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:02.87
+Temps ÇcoulÇ 00:00:02.90
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:12.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:46:09.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "Release|x64".
@@ -837,9 +825,9 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:02.94
+Temps ÇcoulÇ 00:00:02.84
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-La gÇnÇration a dÇmarrÇ 07/09/2022 18:23:16.
+La gÇnÇration a dÇmarrÇ 11/09/2022 15:46:12.
      1>Projet "C:\src\OpenGL\NeHe_Lesson01-master\build.cmake\VS2022X64\Lesson01.sln" sur le noud 1 (Lesson01:rebuild cible(s)).
      1>ValidateSolutionConfiguration:
          GÇnÇration de la configuration de solution "RelWithDebInfo|x64".
@@ -888,7 +876,7 @@ La gÇnÇration a rÇussi.
     0 Avertissement(s)
     0 Erreur(s)
 
-Temps ÇcoulÇ 00:00:02.87
+Temps ÇcoulÇ 00:00:02.88
         1 fichier(s) copiÇ(s).
 
 RêUSSITEˇ: la valeur spÇcifiÇe a ÇtÇ enregistrÇe.
@@ -1119,7 +1107,7 @@ C:\src\OpenGL\NeHe_Lesson01-master\Lesson01.res
     lrc -IC:\lcc\include src\Lesson01.rc -IC:\lcc\include
     lcc -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc\include
     lcclnk Lesson01.obj Lesson01.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
-Time: 0.16 seconds
+Time: 0.161 seconds
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
         1 fichier(s) dÇplacÇ(s).
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
@@ -1129,7 +1117,7 @@ C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
     lrc -IC:\lcc\include src\Lesson01.rc -IC:\lcc\include
     lcc -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc\include
     lcclnk Lesson01.obj Lesson01.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
-Time: 0.14 seconds
+Time: 0.148 seconds
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
         1 fichier(s) dÇplacÇ(s).
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
@@ -1141,7 +1129,7 @@ C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
     lrc -IC:\lcc64\include64 src\Lesson01.rc -IC:\lcc64\include64
     lcc64 -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc64\include64
     lcclnk64 Lesson01.obj Lesson01.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
-Time: 0.016 seconds
+Time: 0.015 seconds
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
         1 fichier(s) dÇplacÇ(s).
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj
@@ -1151,7 +1139,7 @@ C:\src\OpenGL\NeHe_Lesson01-master\lesson01.res
     lrc -IC:\lcc64\include64 src\Lesson01.rc -IC:\lcc64\include64
     lcc64 -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson01.c -IC:\lcc64\include64
     lcclnk64 Lesson01.obj Lesson01.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
-Time: 0.016 seconds
+Time: 0.015 seconds
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.exe
         1 fichier(s) dÇplacÇ(s).
 C:\src\OpenGL\NeHe_Lesson01-master\lesson01.obj

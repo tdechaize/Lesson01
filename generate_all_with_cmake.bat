@@ -55,20 +55,22 @@ cd %SOURCE_DIR%
 :SUITE
 if "%3" NEQ "" goto %3
 
-REM             Génération cmake pour le compilateur Borland C/C++ 5.5
+REM             Génération make pour le compilateur Borland C/C++ 5.51 
 :BCC
-SET PATH=C:\BCC55\Bin;%PATH%
-del /Q /F CMAKELists.txt
-copy build.cmake\BC55\CMAKELists.txt *.*
-cmake --fresh -G "Borland Makefiles" -B build.cmake/BC55/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
-cmake --fresh -G "Borland Makefiles" -B build.cmake/BC55/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
-cd build.cmake\BC55\Debug
-make
-cd ..
-cd Release
-make
+SET PATH=C:\BCC55\bin;%PATH%
+del /Q makefile_Borland.mak
+copy build.cmake\BC55\makefile_Borland.mak *.*
+make -DCFG=Debug -DNAME_APPLI=%NAME_APPLI% /f MakeFile_Borland.mak 
+move /Y *.exe binBC55\Debug\
+move /Y *.obj objBC55\Debug\
+move /Y *.res objBC55\Debug\
+make -DCFG=Release -DNAME_APPLI=%NAME_APPLI% /f MakeFile_Borland.mak 
+move /Y *.exe binBC55\Release\
+move /Y *.obj objBC55\Release\
+move /Y *.res objBC55\Release\
 cd %SOURCE_DIR%
 SET PATH=%PATHSAV%
+del /Q makefile_Borland.mak
 IF "%3" NEQ "" GOTO FIN
 
 REM             Génération cmake --fresh pour GCC 9.2.0 intégré à MINGW32 (version officielle)
@@ -121,13 +123,13 @@ IF "%3" NEQ "" GOTO FIN
 
 REM             Génération cmake pour GCC 12.1.0 intégré à l'environnement CYGWIN 32 bits
 :CYGWIN32
-SET PATH=C:\cygwin64\bin;%PATH%
+SET PATH=C:\Program Files\CMake\bin;C:\cygwin64\bin;%PATH%
 del /Q CMAKELists.txt
 copy build.cmake\CYGWIN32\CMAKELists.txt *.*
 del /Q build.cmake\CYGWIN32\Debug\*.*
 del /Q build.cmake\CYGWIN32\Release\*.*
-cmake -G "Unix Makefiles" -B build.cmake/CYGWIN32/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
-cmake -G "Unix Makefiles" -B build.cmake/CYGWIN32/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
+cmake --fresh -G "Unix Makefiles" -B build.cmake/CYGWIN32/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
+cmake --fresh -G "Unix Makefiles" -B build.cmake/CYGWIN32/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
 cd build.cmake\CYGWIN32\Debug
 make . all
 cd ..
@@ -139,13 +141,13 @@ IF "%3" NEQ "" GOTO FIN
 
 REM             Génération cmake pour GCC 12.1.0 intégré à l'environnement CYGWIN 64 bits
 :CYGWIN64
-SET PATH=C:\cygwin64\bin;%PATH%
+SET PATH=C:\Program Files\CMake\bin;C:\cygwin64\bin;%PATH%
 del /Q CMAKELists.txt
 copy build.cmake\CYGWIN64\CMAKELists.txt *.*
 del /Q build.cmake\CYGWIN64\Debug\*.*
 del /Q build.cmake\CYGWIN64\Release\*.*
-cmake -G "Unix Makefiles" -B build.cmake/CYGWIN64/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
-cmake -G "Unix Makefiles" -B build.cmake/CYGWIN64/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
+cmake --fresh -G "Unix Makefiles" -B build.cmake/CYGWIN64/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
+cmake --fresh -G "Unix Makefiles" -B build.cmake/CYGWIN64/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
 cd build.cmake\CYGWIN64\Debug
 make . all
 cd ..
