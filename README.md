@@ -49,7 +49,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
     TDE -> Add resource file end resource header for restitute version + icon OpenGL.ico for fun
 			because versionning is important, same for freeware :-) !
 
-Vous trouverez ci-dessous, un sommaire pour aller azncore plus loin dans les explications :
+Vous trouverez ci-dessous, un sommaire pour aller encore plus loin dans les explications :
 
 # Lesson01
 
