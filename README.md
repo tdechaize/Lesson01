@@ -28,7 +28,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 
 	a) Mingw 32 bits, version officielle gcc 9.2.0 (old !) : downloadable on http://sourceforge.net/projects/mingw/ (official) 
 	b) Mingw 64 bits included in new IDE Red Panda Dev-Cpp, version gcc 10.3.0 : donwloadable on http://sourceforge.net/projects/dev-cpp-2020/
-	c) Mingw 64 bits included in package Code::Blocks (version 20.03), version gcc 8.1.0 : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
+	c) Mingw 64 bits included in package Code::Blocks (version 20.03), version gcc 8.1.0 (very old) : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
 	d) Mingw 32 and 64 bits packagés, version gcc 12.2.0 : downloadable on  https://winlibs.com/ (and CLANG included in, 32 and 64 bits, version 14.0.6), two kits :
 			- winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2.7z (32 bits)
 			- winlibs-i686-posix-dwarf-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2.7z (64 bits)
