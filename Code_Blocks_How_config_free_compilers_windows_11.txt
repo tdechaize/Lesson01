@@ -347,10 +347,10 @@ Tests :
 		Deux configurations utilisées : "Debug TDM 64" et "Release TDM 64"
 		Ok, ca fonctionne avec le compilateur gcc de TDM en 64bits.
 
-G) Installation de MINGW64 et de MINGW32 version GCC 11.2.0 (et de CLANG aussi en version 14.0.0)) avec l'outil MSYS2
+G) Installation de MINGW64 et de MINGW32 version GCC 12.2.0 (et de CLANG aussi en version 14.0.6)) avec l'outil MSYS2
 
 La version officielle est téléchargeable sur le site Web : https://www.msys2.org/
-Le fichier de téléchargement est le suivant (à date) : msys2-x86_64-20220319.exe
+Le fichier de téléchargement est le suivant (à date) : msys2-x86_64-20220603.exe
 
 J'ai été conquis par cette nouvelle installation de MSYS qui historiquement était plutôt lié à CYGWIN.
 En effet, il est très facile de la mettre à niveau avec l'utilitaire fourni PACMAN, et la version de GCC en 32 bits ou 64 bits
@@ -376,7 +376,7 @@ Search directories :
 Affichage de la commande : "g++.exe -v" pour mingw32 ->
 Using built-in specs.
 COLLECT_GCC=gcc
-COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/11.2.0/lto-wrapper.exe
+COLLECT_LTO_WRAPPER=C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/12.2.0/lto-wrapper.exe
 Target: i686-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --prefix=/mingw32 --with-local-prefix=/mingw32/local --build=i686-w64-mingw32 --host=i686-w64-mingw32
  --target=i686-w64-mingw32 --with-native-system-header-dir=/mingw32/include --libexecdir=/mingw32/lib --enable-bootstrap --enable-checking=release
@@ -390,12 +390,12 @@ Configured with: ../gcc-11.2.0/configure --prefix=/mingw32 --with-local-prefix=/
  -pipe\ -Wl,--no-seh\ -Wl,--large-address-aware\ -Wl,--stack,12582912' --disable-sjlj-exceptions --with-dwarf2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.0 (Rev10, Built by MSYS2 project)
+gcc version 12.2.0 (Rev10, Built by MSYS2 project)
 
 Affichage de la commande : "g++.exe -v" pour mingw64 ->
 Using built-in specs.
 COLLECT_GCC=gcc
-COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
 Target: x86_64-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32
  --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release
@@ -408,7 +408,7 @@ Configured with: ../gcc-11.2.0/configure --prefix=/mingw64 --with-local-prefix=/
  --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ -pipe\ -Wl,--stack,12582912'
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.0 (Rev10, Built by MSYS2 project)
+gcc version 12.2.0 (Rev10, Built by MSYS2 project)
 
 Tests :
 	a) test n° 1 : 
