@@ -582,7 +582,7 @@ move /Y *.res objOW64\Release\
 cd %SOURCE_DIR%
 SET PATH=%PATHSAV%
 del /Q makefile_OW64_debug.mak makefile_OW64_release.mak
-GOTO FIN 
+GOTO ARCHIVE 
 
 REM             Génération cmake pour Open WATCOM 2.0 (buggy with resource file with CMAKE !!!)
 :WATCOM
@@ -590,7 +590,7 @@ SET PATH=C:\WATCOM\binnt;%PATH%
 del /Q CMAKELists.txt
 copy build.cmake\OW32\CMAKELists.txt *.*
 cmake --fresh -G "Watcom WMake" -B build.cmake/OW32/Debug -DCMAKE_BUILD_TYPE=Debug -DNAME_APPLI=%NAME_APPLI% .
-cmake --fresh -G "Watcom WMake" -B build.cmake/OW32/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI%.
+cmake --fresh -G "Watcom WMake" -B build.cmake/OW32/Release -DCMAKE_BUILD_TYPE=Release -DNAME_APPLI=%NAME_APPLI% .
 cd build.cmake/OW32/Debug
 wmake -a -v
 cd ..
@@ -598,6 +598,26 @@ cd Release
 wmake -a -v
 cd %SOURCE_DIR%
 SET PATH=%PATHSAV%
+
+:ARCHIVE
+del /Q *.7z *.tgz *.tar
+REM "C:\CodeBlocks\cbp2make.exe" --local -in $(project_dir)$(project_filename) -out makefile
+@echo on
+%PYTHON64% ..\..\tools\Size_exec.py %NAME_APPLI%
+%PYTHON64% ..\..\tools\Calc_checksums.py %NAME_APPLI%
+set mydate=%date%
+set mytime=%time%
+set DAY=%mydate:~0,2%
+set MONTH=%mydate:~3,2%
+set YEAR=%mydate:~6,4%
+echo Current time is %mydate%:%mytime%
+echo Jour : %DAY%
+echo Mois : %MONTH%
+echo Année : %YEAR%
+"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_src.7z src\*.* res\*.* data\*.* build.cmake\* *.bat *.txt *.html *.md doxygen\*.* -x!*.bak -p"%NAME_APPLI%_tde"
+"C:\Program Files\7-Zip\7z" a -ttar %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_all.tar * -x!*.7z x!*.bak
+"C:\Program Files\7-Zip\7z" a -tgzip %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_all.tgz *.tar
+del /Q *.tar
 GOTO FIN
 
 :usage
