@@ -614,9 +614,9 @@ echo Current time is %mydate%:%mytime%
 echo Jour : %DAY%
 echo Mois : %MONTH%
 echo Année : %YEAR%
-"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_src.7z src\*.* res\*.* data\*.* build.cmake\* *.bat *.txt *.html *.md doxygen\*.* -x!*.bak -p"%NAME_APPLI%_tde"
-"C:\Program Files\7-Zip\7z" a -ttar %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_all.tar * -x!*.7z x!*.bak
-"C:\Program Files\7-Zip\7z" a -tgzip %NAME_APPLI%_%YEAR%_%MONTH%_%DAY%_all.tgz *.tar
+"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_src.7z src\*.* res\*.* data\*.* build.cmake\* *.bat *.txt *.html *.md doxygen\*.* *.cbp *.workspace -x!*.bak -p"%NAME_APPLI%_tde"
+"C:\Program Files\7-Zip\7z" a -ttar %NAME_APPLI%-%YEAR%-%MONTH%_%DAY%_all.tar * -x!*.7z x!*.bak
+"C:\Program Files\7-Zip\7z" a -tgzip %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_all.tgz *.tar
 del /Q *.tar
 GOTO FIN
 
