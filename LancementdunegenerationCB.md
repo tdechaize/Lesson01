@@ -4,7 +4,7 @@ Pour générer les exécutables attendus, plusieurs options sont à votre dispos
 
 &nbsp;
 
-&nbsp;- la première très simple, on ouvre le wokrspace ou le projet CB (.ie. "Lesson"nn".workspace" or&nbsp; "Lesson"nn".cbp"), puis on clique sur "rebuild", en ayant sélectionné soit la "virtual traget" -\> 'All build', soit un des "real target" : 'Debug DMC' (par exemple),
+&nbsp;- la première très simple, on ouvre le wokrspace ou le projet CB (.ie. "Lesson"nn".workspace" or&nbsp; "Lesson"nn".cbp"), puis on clique sur "rebuild", en ayant sélectionné soit la "virtual target" -\> 'All\_build', soit un des "real target" : 'Debug DMC' (par exemple),
 
 &nbsp;
 
@@ -24,7 +24,7 @@ Pour générer les exécutables attendus, plusieurs options sont à votre dispos
 
 &nbsp;b) le deuxième paramètre : le nom de votre application (.ie. "Lesson01" par exemple)
 
-&nbsp;c) le troisième paramètre (optionnel) permet de choisir alors la génération souhaitée parmi une liste d'environnements de compilation/linkage des exécutables.
+&nbsp;c) le troisième paramètre (optionnel) permet de choisir alors la génération souhaitée parmi une liste d'environnements de compilation/linkage des exécutables&nbsp; (Compilers, IDE ou package de développements).
 
 
 ***
