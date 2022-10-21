@@ -94,9 +94,9 @@ Paradigm : obtain one source (only one \!) compatible for multiple free C Compil
 
 &nbsp; &nbsp; o) CLANG, adossé aux environnements MINGW64 et MINGW32, version 14.0.6 (version gcc 12.2.0) : downloadable on https://winlibs.com/&nbsp;
 
-&nbsp; &nbsp; p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 14.0.6 : downloadable on https://releases.llvm.org/download.html
+&nbsp; &nbsp; p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 15.0.3 : downloadable on https://releases.llvm.org/download.html
 
-&nbsp; &nbsp; q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 14.0.6 (version gcc 11.2.0) : downloadable on https://repo.msys2.org/distrib/x86\_64/msys2-x86\_64-20220603.exe
+&nbsp; &nbsp; q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 15.0.2 (version gcc 11.2.0) : downloadable on https://repo.msys2.org/distrib/x86\_64/msys2-x86\_64-20220603.exe
 
 &nbsp; &nbsp; r) CLANG de la version CYGWIN, adossé aux environnements MINGW64 et MINGW32, version 8.0.0 (version gcc 11.3.0) : downloadable http://www.cygwin.com/install.html (tool for install : setup-x86\_64.exe) &nbsp; &nbsp;
 

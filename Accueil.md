@@ -12,7 +12,9 @@ En voici, quelques unes :
 
 &nbsp;
 
-Ce qui a conduit, en utilisant un "virtual target" de cet IDE dénommé "all build", a pouvoir générer "automatiquement"&nbsp; 52 exécutables correspondant à 26 environnements de développement différents :
+Ce qui a conduit, en utilisant un "virtual target" de cet IDE dénommé "all build", a pouvoir générer "automatiquement"&nbsp; 52 exécutables correspondant à 26 environnements de développement différents.
+
+&nbsp;
 
 Voici la liste de tous ces environnements (même si la génération Open Watcom 64 bits pose problème à l'IDE CB \!)&nbsp; :
 
