@@ -33,11 +33,9 @@ REM set MINGW32=C:\Mingw32
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -46,7 +44,7 @@ set SOURCE_DIR=%1
 set NAME_APPLI=%2
 cd %SOURCE_DIR%
 
-REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur clang (MingW32 packagé Winlibs)
+REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur CLANG (MingW32 packagé Winlibs)
 :MINGW32WL
 set PATH=%MinGW32%\bin;%PATH%
 set INC1=%MinGW32%\lib\clang\14.0.6\include
@@ -59,6 +57,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "CLANG (MingW32 packagé Winlibs) -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-O2 -m32"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -73,6 +72,7 @@ clang -m32 -L %LIB1% -L %LIB2% objCLANGW32\Debug\%NAME_APPLI%.o objCLANGW32\Debu
 goto FIN
 
 :APPWIN
+echo "CLANG (MingW32 packagé Winlibs) -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-O2 -m32"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -87,6 +87,7 @@ clang -m32 -mwindows -L %LIB1% -L %LIB2% objCLANGW32\Debug\%NAME_APPLI%.o objCLA
 goto FIN
 
 :LIBRA
+echo "CLANG (MingW32 packagé Winlibs) -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-O2 -m32"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -103,6 +104,7 @@ clang -m32 -o binCLANGW32\Debug\%NAME_APPLI%.lib objCLANGW32\Debug\%NAME_APPLI%.
 goto FIN
 
 :DLLA
+echo "CLANG (MingW32 packagé Winlibs) -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-O2 -m32"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c

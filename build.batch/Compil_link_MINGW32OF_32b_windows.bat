@@ -57,6 +57,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "GCC 32b de la version Mingw Officielle -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objMINGW32OF\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -71,6 +72,7 @@ gcc -m32 -mconsole -L"%LIB%" objMINGW32OF\Debug\%NAME_APPLI%.o objMINGW32OF\Debu
 goto FIN
 
 :APPWIN
+echo "GCC 32b de la version Mingw Officielle -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objMINGW32OF\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -85,6 +87,7 @@ gcc -m32 -mwindows -L"%LIB%" objMINGW32OF\Debug\%NAME_APPLI%.o objMINGW32OF\Debu
 goto FIN
 
 :LIBRA
+echo "GCC 32b de la version Mingw Officielle -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objMINGW32OF\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -101,6 +104,7 @@ gcc -m32 -o binMINGW32OF\Debug\%NAME_APPLI%.lib objMINGW32OF\Debug\%NAME_APPLI%.
 goto FIN
 
 :DLLA
+echo "GCC 32b de la version Mingw Officielle -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-O2 -m32 -fPIC"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objMINGW32OF\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c

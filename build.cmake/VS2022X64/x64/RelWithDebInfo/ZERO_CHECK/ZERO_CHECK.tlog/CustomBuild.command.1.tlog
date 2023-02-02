@@ -1,0 +1,10 @@
+^C:\SRC\OPENGL\NEHE_LESSON01-MASTER\BUILD.CMAKE\VS2022X64\CMAKEFILES\43546A34D631DCEBC0A22596C080A565\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/src/OpenGL/NeHe_Lesson01-master -BC:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/VS2022X64/Lesson01.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -36,7 +36,6 @@ if not exist %1\ goto usage
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -57,6 +56,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "CLANG (MingW64 packagé MSYS2) -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-O2 -m64"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGMW64\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -71,6 +71,7 @@ clang -m64 -L %LIB% objCLANGMW64\Debug\%NAME_APPLI%.o objCLANGMW64\Debug\%NAME_A
 goto FIN
 
 :APPWIN
+echo "CLANG (MingW64 packagé MSYS2) -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-O2 -m64"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGMW64\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -85,6 +86,7 @@ clang -m64 -mwindows -L %LIB% objCLANGMW64\Debug\%NAME_APPLI%.o objCLANGMW64\Deb
 goto FIN
 
 :LIBRA
+echo "CLANG (MingW64 packagé MSYS2) -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-O2 -m64"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGMW64\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -101,6 +103,7 @@ clang -m64 -o binCLANGMW64\Debug\%NAME_APPLI%.lib objCLANGMW64\Debug\%NAME_APPLI
 goto FIN
 
 :DLLA
+echo "CLANG (MingW64 packagé MSYS2) -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-O2 -m64"
 clang %CFLAGS% -D NDEBUG -I %INC1% -I %INC2% -o objCLANGMW64\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c

@@ -23,8 +23,10 @@ REM 			(certains compilateurs ne sont pas capables de les créer ONLINE s'ils so
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				29 Septembre 2022   
-REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 								la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources 
+REM 									est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -33,11 +35,9 @@ REM set DEVCPP=C:\Program Files\RedPanda-Cpp\MinGW64
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -46,7 +46,7 @@ set SOURCE_DIR=%1
 set NAME_APPLI=%2
 cd %SOURCE_DIR%
 
-REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur GCC (MingW64 de CB)
+REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur GCC inclus dans l'IDE Red Panda DevCPP
 :MINGW64CB
 set PATH=%DEVCPP%\bin;%PATH%
 set "INCLUDE=%DEVCPP%\x86_64-w64-mingw32\include"
@@ -57,6 +57,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "Red Panda DEVCPP -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-O2 -m64"
 gcc %CFLAGS% -DNDEBUG -I"%INCLUDE%" -o objDEVCPP\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -71,6 +72,7 @@ gcc -m64 -mconsole -L"%LIB%" objDEVCPP\Debug\%NAME_APPLI%.o objDEVCPP\Debug\%NAM
 goto FIN
 
 :APPWIN
+echo "Red Panda DEVCPP -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-O2 -m64"
 gcc %CFLAGS% -DNDEBUG -I"%INCLUDE%" -o objDEVCPP\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -85,6 +87,7 @@ gcc -m64 -mwindows -L"%LIB%" objDEVCPP\Debug\%NAME_APPLI%.o objDEVCPP\Debug\%NAM
 goto FIN
 
 :LIBRA
+echo "Red Panda DEVCPP -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-O2 -m64"
 gcc %CFLAGS% -DNDEBUG -I"%INCLUDE%" -o objDEVCPP\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -101,6 +104,7 @@ gcc -o binDEVCPP\Debug\%NAME_APPLI%.lib objDEVCPP\Debug\%NAME_APPLI%.o -lglu32 -
 goto FIN
 
 :DLLA
+echo "Red Panda DEVCPP -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-O2 -m64 -fPIC"
 gcc %CFLAGS% -DNDEBUG -I"%INCLUDE%" -o objDEVCPP\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c

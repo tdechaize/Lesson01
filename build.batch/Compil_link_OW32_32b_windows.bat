@@ -22,8 +22,10 @@ REM 					(certains compilateurs ne sont pas capables de les créer ONLINE s'ils 
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				26 Septembre 2022   
-REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 									la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources 
+REM 									est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -32,11 +34,9 @@ REM set WATCOM=C:\WATCOM
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-REM @echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  			: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -58,6 +58,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "Open Watcom C/C++ 32bits -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-q -c -bt=nt"
 wcl386 %CFLAGS% -dNDEBUG  -d_WIN32 -i%INC1% -i%INC2% -fo=objOW32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -72,6 +73,7 @@ wlink option quiet debug all system nt_win CON LIBP "%LIB1%";"%LIB2%" file objOW
 goto FIN
 
 :APPWIN
+echo "Open Watcom C/C++ 32bits -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-q -c -bt=nt"
 wcl386 %CFLAGS% -dNDEBUG -d_WIN32 -i%INC1% -i%INC2% -fo=objOW32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -86,6 +88,7 @@ wlink option quiet debug all system nt_win  LIBP "%LIB1%";"%LIB2%" file objOW32\
 goto FIN
 
 :LIBRA
+echo "Open Watcom C/C++ 32bits -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-q -c -bt=nt"
 wcl386 %CFLAGS% -dNDEBUG -d_WIN32 -i%INC1% -i%INC2% -fo=objOW32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -100,6 +103,7 @@ wlib -q -ii -ic binOW32\Debug\%NAME_APPLI%.lib +-objOW32\Debug\%NAME_APPLI%.obj
 goto FIN
 
 :DLLA
+echo "Open Watcom C/C++ 32bits -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "FLAGS=-q -c -bt=nt"
 wcl386 %CFLAGS% -dNDEBUG -d_WIN32 -i%INC1% -i%INC2% -fo=objOW32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

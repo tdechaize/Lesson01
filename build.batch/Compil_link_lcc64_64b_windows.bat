@@ -56,6 +56,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "LCC64 -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-c"
 lcc64 %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -70,6 +71,7 @@ lcclnk64 -subsystem console -L"%LIB%" objlcc64\Debug\%NAME_APPLI%.obj objlcc64\D
 goto FIN
 
 :APPWIN
+echo "LCC64 -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-c"
 lcc64 %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -84,6 +86,7 @@ lcclnk64 -subsystem windows -L"%LIB%" objlcc64\Debug\%NAME_APPLI%.obj objlcc64\D
 goto FIN
 
 :LIBRA
+echo "LCC64 -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-c"
 lcc64 %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -98,6 +101,7 @@ lcclib64 /out:binlcc64\Debug\%NAME_APPLI%.lib objlcc64\Debug\%NAME_APPLI%.obj
 goto FIN
 
 :DLLA
+echo "LCC64 -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "FLAGS=-c"
 lcc64 %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

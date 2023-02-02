@@ -52,7 +52,7 @@ if "%3" NEQ "" goto CBONE else set TARGET=%3
 
 REM             Lancement Code::Blocks de toutes les générations 
 :CBALL
-codeblocks.exe /na /nd --no-splash-screen --batch-build-notify --no-batch-window-close --rebuild %NAME_APPLI%.workspace --target='All_build' 
+codeblocks.exe /na /nd --no-splash-screen --batch-build-notify --no-batch-window-close --rebuild %NAME_APPLI%.workspace --target='All build' 
 cd %SOURCE_DIR%
 SET PATH=%PATHSAV%
 GOTO FIN

@@ -22,8 +22,10 @@ REM 					(certains compilateurs ne sont pas capables de les créer ONLINE s'ils 
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				26 Septembre 2022   
-REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 									la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources est 
+REM 									imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -58,6 +60,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "Pelles C 64bits -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=/nologo /Tx64-coff /Ze /c"
 pocc %CFLAGS% /DNDEBUG  /D_AMD64_ /D_WIN64 /I%INC1% /I%INC2% /FoobjPellesC64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -72,6 +75,7 @@ polink /nologo /DEBUG /SUBSYSTEM:CONSOLE /MACHINE:X64 /LIBPATH:"%LIB1%" /LIBPATH
 goto FIN
 
 :APPWIN
+echo "Pelles C 64bits -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=/nologo /Tx64-coff /Ze /c"
 pocc %CFLAGS% /DNDEBUG /D_AMD64_ /D_WIN64 /I%INC1% /I%INC2% /FoobjPellesC64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -86,6 +90,7 @@ polink /nologo /DEBUG /SUBSYSTEM:WINDOWS /MACHINE:X64 /LIBPATH:"%LIB1%" /LIBPATH
 goto FIN
 
 :LIBRA
+echo "Pelles C 64bits -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=/nologo /Tx64-coff /Ze /c"
 pocc %CFLAGS% /DNDEBUG /D_AMD64_ /D_WIN64 /I%INC1% /I%INC2% /FoobjPellesC64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -100,6 +105,7 @@ polib /MACHINE:X64 /out:binPellesC64\Debug\%NAME_APPLI%.lib objPellesC64\Debug\%
 goto FIN
 
 :DLLA
+echo "Pelles C 64bits -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "FLAGS=/nologo /Tx64-coff /Ze /c"
 pocc %CFLAGS% /DNDEBUG /D_AMD64_ /D_WIN64 /I%INC1% /I%INC2% /FoobjPellesC64\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

@@ -13,7 +13,7 @@
 
 Project Name: Jeff Molofee's OpenGL Tutorial
 
-Project Description: Creating Your First Polygon Tutorial
+Project Description: Creating Your First OpenGL Windows Program.
 
 Authors Name: Jeff Molofee (aka NeHe)
 
@@ -34,32 +34,32 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
     and provide for all users an development environment on Windows 11 64 bits
     the great Code::Blocks manager (version 20.3), and don't use glaux.lib or glaux.dll.
 
-	a) Mingw 32 bits, version officielle gcc 6.3.0 (very old !) : downloadable on http://sourceforge.net/projects/mingw/ (official) 
+	a) Mingw 32 bits, version officielle gcc 9.2.0 (old !) : downloadable on http://sourceforge.net/projects/mingw/ (official) 
 	b) Mingw 64 bits included in new IDE Red Panda Dev-Cpp, version gcc 10.3.0 : donwloadable on http://sourceforge.net/projects/dev-cpp-2020/
-	c) Mingw 64 bits included in package Code::Blocks (version 20.03), version gcc 8.1.0 : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
+	c) Mingw 64 bits included in package Code::Blocks (version 20.03), version gcc 8.1.0 (very old !) : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
 	d) Mingw 32 and 64 bits packagés, version gcc 11.2.0 : downloadable on  https://winlibs.com/ (and CLANG included in, 32 and 64 bits), two kits :
-			- winlibs-i686-posix-dwarf-gcc-11.2.0-llvm-13.0.0-mingw-w64ucrt-9.0.0-r2.7z (32 bits)
-			- winlibs-x86_64-posix-seh-gcc-11.2.0-llvm-13.0.0-mingw-w64ucrt-9.0.0-r2.7z (64 bits)
-	e) Cygwin64, 32 et 64 bits, version gcc 11.0.0 : downloadable on http://www.cygwin.com/install.html (tool for install : setup-x86_64.exe)
+			- winlibs-i686-posix-dwarf-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2.7z (32 bits)
+			- winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-14.0.6-mingw-w64ucrt-10.0.0-r2.7z (64 bits)
+	e) Cygwin64, 32 et 64 bits, version gcc 11.3.0 : downloadable on http://www.cygwin.com/install.html (tool for install : setup-x86_64.exe)
 	f) TDM GCC, 32 et 64 bits, version 10.3.0 : downloadable on http://sourceforge.net/projects/TDM-GCC
-	g) MSYS2 environnement MINGW32 and MINGW64, 32 et 64 bits, version de 2022 (msys2-x86_64-20220118.exe), version gcc 11.2.0 : downloadable on https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220118.exe
+	g) MSYS2 environnement MINGW32 and MINGW64, 32 et 64 bits, version de 2022 (msys2-x86_64-20220603.exe), version gcc 12.2.0 : downloadable on https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220603.exe
 	h) Visual Studio 2022, 32 et 64 bits, community edition for free : downloadable on https://visualstudio.microsoft.com/fr/thank-you-downloading-visual-studio/?sku=Community&rel=17
 	i) Borland C/C++ 32 bits, version 5.5 : downloadable on https://developerinsider.co/download-and-install-borland-c-compiler-on-windows-10/
-	j) Digital Mars Compiler C 32 bits version 8.57 : downloadable on http://www.digitalmars.com (the more old compiler, the more bugged, dead branch !)
-	k) OpenWatcom 32 et 64 bits, version 2.0 : downloadable on http://openwatcom.mirror.fr/ (only 32 bits version run correctly !)
+	j) Digital Mars Compiler C/C++ 32 bits version 8.57 : downloadable on http://www.digitalmars.com (the more old compiler, the more bugged, dead branch !)
+	k) OpenWatcom C/C++ 32 et 64 bits, version 2.0 : downloadable on http://openwatcom.mirror.fr/ (only 32 bits version run correctly !)
 	l) Lcc and Lcc64, 32 et 64 bits: downloadable http://www.cs.virginia.edu/~lcc-win32/
-	m) PELLES C, 32 et 64 bits, version 11.0 : downloadable on http://www.smorgasbordet.com/pellesc/
-	o) CLANG, adossé aux environnements MINGW64 et MINGW32, version 13.0.0 (version gcc 12.0.0) : downloadable on https://winlibs.com/ 
-	p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 13.0.0 : downloadable on https://releases.llvm.org/download.html
-	q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 13.0.0 (version gcc 11.2.0) : downloadable on https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220118.exe
-	r) CLANG de la version CYGWIN, adossé aux environnements MINGW64 et MINGW32, version 8.0.0 (version gcc 11.0.0) : downloadable http://www.cygwin.com/install.html (tool for install : setup-x86_64.exe)	
+	m) PELLES C (only C) , 32 et 64 bits, version 11.0 : downloadable on http://www.smorgasbordet.com/pellesc/
+	o) CLANG, adossé aux environnements MINGW64 et MINGW32, version 14.0.6 (version gcc 12.0.0) : downloadable on https://winlibs.com/ 
+	p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 15.0.2 : downloadable on https://releases.llvm.org/download.html
+	q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 15.0.2 (version gcc 12.2.0) : downloadable on https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220118.exe
+	r) CLANG de la version CYGWIN, adossé aux environnements MINGW64 et MINGW32, version 8.0.0 (very old !) (version gcc 11.3.0) : downloadable http://www.cygwin.com/install.html (tool for install or update : setup-x86_64.exe)	
 
     TDE -> Add resource file end resource header for restitute version + icon OpenGL.ico for fun
 			because versionning is important, same for freeware :-) !]]>
 			</notes>
 		</Option>
 		<Build>
-			<Target title="Debug_Mingw32_official">
+			<Target title="Debug Mingw32 official">
 				<Option platforms="Windows;" />
 				<Option output="binMingW32of/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingW32of/Debug/" />
@@ -79,7 +79,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_Mingw32_official">
+			<Target title="Release Mingw32 official">
 				<Option platforms="Windows;" />
 				<Option output="binMingw32of/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw32of/Release/" />
@@ -99,7 +99,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_Mingw64_CB">
+			<Target title="Debug Mingw64 CB">
 				<Option platforms="Windows;" />
 				<Option output="binMingw64CB/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw64CB/Debug/" />
@@ -120,7 +120,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_Mingw64_CB">
+			<Target title="Release Mingw64 CB">
 				<Option platforms="Windows;" />
 				<Option output="binMingw64CB/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw64CB/Release/" />
@@ -140,7 +140,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_Mingw64_Dev-Cpp">
+			<Target title="Debug Mingw64 Dev-Cpp">
 				<Option platforms="Windows;" />
 				<Option output="binDevCpp/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objDevCpp/Debug/" />
@@ -160,7 +160,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_Mingw64_Dev-Cpp">
+			<Target title="Release Mingw64 Dev-Cpp">
 				<Option platforms="Windows;" />
 				<Option output="binDevCpp/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objDevCpp/Release/" />
@@ -180,7 +180,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CYGWIN_32">
+			<Target title="Debug CYGWIN 32">
 				<Option platforms="Windows;" />
 				<Option output="binCYGWIN32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCYGWIN32/Debug" />
@@ -198,7 +198,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="opengl32" />
 				</Linker>
 			</Target>
-			<Target title="Release_CYGWIN_32">
+			<Target title="Release CYGWIN 32">
 				<Option platforms="Windows;" />
 				<Option output="binCYGWIN32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCYGWIN32/Release/" />
@@ -214,7 +214,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="opengl32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CYGWIN_64">
+			<Target title="Debug CYGWIN 64">
 				<Option platforms="Windows;" />
 				<Option output="binCYGWIN64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCYGWIN64/Debug" />
@@ -232,7 +232,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="opengl32" />
 				</Linker>
 			</Target>
-			<Target title="Release_CYGWIN_64">
+			<Target title="Release CYGWIN 64">
 				<Option platforms="Windows;" />
 				<Option output="binCYGWIN64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCYGWIN64/Release/" />
@@ -248,7 +248,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="opengl32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_Mingw32_wl">
+			<Target title="Debug Mingw32 wl">
 				<Option platforms="Windows;" />
 				<Option output="binMingw32wl/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw32wl/Debug/" />
@@ -271,7 +271,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_Mingw32_wl">
+			<Target title="Release Mingw32 wl">
 				<Option platforms="Windows;" />
 				<Option output="binMingw32wl/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw32wl/Release/" />
@@ -292,7 +292,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_Mingw64_wl">
+			<Target title="Debug Mingw64 wl">
 				<Option platforms="Windows;" />
 				<Option output="binMingw64wl/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw64wl/Debug/" />
@@ -313,7 +313,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_Mingw64_wl">
+			<Target title="Release Mingw64 wl">
 				<Option platforms="Windows;" />
 				<Option output="binMingw64wl/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMingw64wl/Release/" />
@@ -334,7 +334,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_TDM_MinGW32">
+			<Target title="Debug TDM MinGW32">
 				<Option platforms="Windows;" />
 				<Option output="binTDMW32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objTDMW32/Debug" />
@@ -356,7 +356,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_TDM_MinGW32">
+			<Target title="Release TDM MinGW32">
 				<Option platforms="Windows;" />
 				<Option output="binTDMW32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objTDMW32/Release" />
@@ -378,7 +378,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_TDM_MinGW64">
+			<Target title="Debug TDM MinGW64">
 				<Option platforms="Windows;" />
 				<Option output="binTDMW64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objTDMW64/Debug" />
@@ -400,7 +400,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_TDM_MinGW64">
+			<Target title="Release TDM MinGW64">
 				<Option platforms="Windows;" />
 				<Option output="binTDMW64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objTDMW64/Release" />
@@ -422,7 +422,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_MSYS2W32">
+			<Target title="Debug MSYS2W32">
 				<Option platforms="Windows;" />
 				<Option output="binMSYS2W32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMSYS2W32/Debug/" />
@@ -443,7 +443,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_MSYS2W32">
+			<Target title="Release MSYS2W32">
 				<Option platforms="Windows;" />
 				<Option output="binMSYS2W32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMSYS2W32/Release/" />
@@ -463,7 +463,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_MSYS2W64">
+			<Target title="Debug MSYS2W64">
 				<Option platforms="Windows;" />
 				<Option output="binMSYS2W64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMSYS2W64/Debug/" />
@@ -484,7 +484,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_MSYS2W64">
+			<Target title="Release MSYS2W64">
 				<Option platforms="Windows;" />
 				<Option output="binMSYS2W64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objMSYS2W64/Release/" />
@@ -504,14 +504,14 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_VS2022_X32">
+			<Target title="Debug VS2022 X32">
 				<Option platforms="Windows;" />
 				<Option output="binVS2022X32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objVS2022X32/Debug" />
 				<Option type="0" />
 				<Option compiler="microsoft_visual_c_2022" />
 				<Compiler>
-					<Add option="/ZI" />
+					<Add option="/Zi" />
 					<Add option="-D" />
 					<Add option="-g" />
 					<Add option="/D_DEBUG" />
@@ -530,7 +530,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="kernel32" />
 				</Linker>
 			</Target>
-			<Target title="Release_VS2022_X32">
+			<Target title="Release VS2022 X32">
 				<Option platforms="Windows;" />
 				<Option output="binVS2022X32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objVS2022X32/Release/" />
@@ -552,7 +552,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_VS2022_X64">
+			<Target title="Debug VS2022 X64">
 				<Option output="binVS2022X64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objVS2022X64/Debug/" />
 				<Option type="0" />
@@ -577,7 +577,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="kernel32" />
 				</Linker>
 			</Target>
-			<Target title="Release_VS2022_X64">
+			<Target title="Release VS2022 X64">
 				<Option output="binVS2022X64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objVS2022X64/Release/" />
 				<Option type="0" />
@@ -599,7 +599,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="kernel32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_DMC">
+			<Target title="Debug DMC">
 				<Option platforms="Windows;" />
 				<Option output="binDMC/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objDMC/Debug" />
@@ -621,7 +621,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="winmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_DMC">
+			<Target title="Release DMC">
 				<Option platforms="Windows;" />
 				<Option output="binDMC/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objDMC/Release/" />
@@ -642,7 +642,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="winmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_lcc">
+			<Target title="Debug lcc">
 				<Option platforms="Windows;" />
 				<Option output="binlcc32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objlcc32/Debug" />
@@ -665,7 +665,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before="lrc.exe -IC:\lcc\include -foobjlcc32\Debug\src\Lesson01.res  src\Lesson01.rc" />
 				</ExtraCommands>
 			</Target>
-			<Target title="Release_lcc">
+			<Target title="Release lcc">
 				<Option platforms="Windows;" />
 				<Option output="binlcc32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objlcc32/Release/" />
@@ -686,7 +686,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before="lrc.exe -IC:\lcc\include -foobjlcc32\Release\src\Lesson01.res  src\Lesson01.rc" />
 				</ExtraCommands>
 			</Target>
-			<Target title="Debug_lcc64">
+			<Target title="Debug lcc64">
 				<Option platforms="Windows;" />
 				<Option output="binlcc64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objlcc64/Debug" />
@@ -709,7 +709,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before="lrc.exe -IC:\lcc64\include64 -foobjlcc64\Debug\src\Lesson01.res  src\Lesson01.rc" />
 				</ExtraCommands>
 			</Target>
-			<Target title="Release_lcc64">
+			<Target title="Release lcc64">
 				<Option platforms="Windows;" />
 				<Option output="binlcc64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objlcc64/Release/" />
@@ -731,7 +731,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before="lrc.exe -IC:\lcc64\include64 -foobjlcc64\Release\src\Lesson01.res  src\Lesson01.rc" />
 				</ExtraCommands>
 			</Target>
-			<Target title="Debug_BorlandC">
+			<Target title="Debug BorlandC">
 				<Option platforms="Windows;" />
 				<Option output="binBC55/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objBC55/Debug" />
@@ -758,7 +758,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="import32" />
 				</Linker>
 			</Target>
-			<Target title="Release_BorlandC">
+			<Target title="Release BorlandC">
 				<Option platforms="Windows;" />
 				<Option output="binBC55/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objBC55/Release/" />
@@ -783,7 +783,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="import32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_OW_32">
+			<Target title="Debug OW 32">
 				<Option platforms="Windows;" />
 				<Option output="binOW32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objOW32/Debug" />
@@ -802,9 +802,11 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="comdlg32" />
 					<Add library="gdi32" />
 					<Add library="winmm" />
+					<Add library="user32" />
+					<Add library="kernel32" />
 				</Linker>
 			</Target>
-			<Target title="Release_OW_32">
+			<Target title="Release OW 32">
 				<Option platforms="Windows;" />
 				<Option output="binOW32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objOW32/Release/" />
@@ -823,7 +825,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="winmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_OW_64">
+			<Target title="Debug OW 64">
 				<Option platforms="Windows;" />
 				<Option output="binOW64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objOW64/Debug" />
@@ -843,14 +845,13 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="winmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_OW_64">
+			<Target title="Release OW 64">
 				<Option platforms="Windows;" />
 				<Option output="binOW64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objOW64/Release/" />
 				<Option type="0" />
 				<Option compiler="ow" />
 				<Compiler>
-					<Add option="-bcl=nt" />
 					<Add option="-dNDEBUG" />
 				</Compiler>
 				<Linker>
@@ -862,7 +863,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="winmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_PELLES_C">
+			<Target title="Debug PELLES C">
 				<Option platforms="Windows;" />
 				<Option output="binPELLESC32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objPELLESC32/Debug" />
@@ -892,7 +893,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
-			<Target title="Release_PELLES_C">
+			<Target title="Release PELLES C">
 				<Option platforms="Windows;" />
 				<Option output="binPELLESC32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objPELLESC32/Release/" />
@@ -919,7 +920,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_PELLES_C_64">
+			<Target title="Debug PELLES C 64">
 				<Option platforms="Windows;" />
 				<Option output="binPELLESC64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objPELLESC64/Debug" />
@@ -950,7 +951,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
-			<Target title="Release_PELLES_C_64">
+			<Target title="Release PELLES C 64">
 				<Option platforms="Windows;" />
 				<Option output="binPELLESC64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objPELLESC64/Release/" />
@@ -978,7 +979,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="gdi32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CLANG_Mingw32">
+			<Target title="Debug CLANG Mingw32">
 				<Option output="binCLANGW32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGW32/Debug/" />
 				<Option type="0" />
@@ -997,7 +998,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_CLANG_Mingw32">
+			<Target title="Release CLANG Mingw32">
 				<Option output="binCLANGW32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGW32/release/" />
 				<Option type="0" />
@@ -1011,7 +1012,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CLANG_Mingw64">
+			<Target title="Debug CLANG Mingw64">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGW64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGW64/Debug/" />
@@ -1031,7 +1032,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Release_CLANG_Mingw64">
+			<Target title="Release CLANG Mingw64">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGW64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGW64/Release/" />
@@ -1049,7 +1050,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libwinmm" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CLANG_MSX32">
+			<Target title="Debug CLANG MSX32">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGX32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGX32/Debug/" />
@@ -1058,7 +1059,6 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 				<Option use_console_runner="0" />
 				<Compiler>
 					<Add option="-g" />
-					<Add option="-target i686-pc-windows-msvc" />
 					<Add option="-D_DEBUG" />
 					<Add option="-DDEBUG" />
 				</Compiler>
@@ -1081,7 +1081,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before='rc.exe -I&quot;%LLVM%\lib\clang\%CLANG_VERSION%\include&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\shared&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\ucrt&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\um&quot; -I&quot;C:\Program Files (x86)\Microsoft Visual Studio\%VS_VERSION%\Community\VC\Tools\MSVC\%VS_NUM%\include&quot; /fo &quot;C:\src\OpenGL\NeHe_Lesson01-master\objCLANGX32\Debug\src\Lesson01.res&quot; src\Lesson01.rc' />
 				</ExtraCommands>
 			</Target>
-			<Target title="Release_CLANG_MSX32">
+			<Target title="Release CLANG MSX32">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGX32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGX32/Release/" />
@@ -1111,7 +1111,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before='rc.exe -I&quot;%LLVM%\lib\clang\%CLANG_VERSION%\include&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\shared&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\ucrt&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\um&quot; -I&quot;C:\Program Files (x86)\Microsoft Visual Studio\%VS_VERSION%\Community\VC\Tools\MSVC\%VS_NUM%\include&quot; /fo &quot;C:\src\OpenGL\NeHe_Lesson01-master\objCLANGX32\Release\src\Lesson01.res&quot; src\Lesson01.rc' />
 				</ExtraCommands>
 			</Target>
-			<Target title="Debug_CLANG_MSX64">
+			<Target title="Debug CLANG MSX64">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGX64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGX64/Debug/" />
@@ -1140,7 +1140,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before='rc.exe -I&quot;%LLVM64%\lib\clang\%CLANG_VERSION%\include&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\shared&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\ucrt&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\um&quot; -I&quot;C:\Program Files (x86)\Microsoft Visual Studio\%VS_VERSION%\Community\VC\Tools\MSVC\%VS_NUM%\include&quot; /fo &quot;C:\src\OpenGL\NeHe_Lesson01-master\objCLANGX64\Debug\src\Lesson01.res&quot; src\Lesson01.rc' />
 				</ExtraCommands>
 			</Target>
-			<Target title="Release_CLANG_MSX64">
+			<Target title="Release CLANG MSX64">
 				<Option platforms="Windows;" />
 				<Option output="binCLANGX64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGX64/Release/" />
@@ -1170,7 +1170,7 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add before='rc.exe -I&quot;%LLVM64%\lib\clang\%CLANG_VERSION%\include&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\shared&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\ucrt&quot; -I&quot;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\include\%KIT_WIN_NUM%\um&quot; -I&quot;C:\Program Files (x86)\Microsoft Visual Studio\%VS_VERSION%\Community\VC\Tools\MSVC\%VS_NUM%\include&quot; /fo &quot;C:\src\OpenGL\NeHe_Lesson01-master\objCLANGX64\Release\src\Lesson01.res&quot; src\Lesson01.rc' />
 				</ExtraCommands>
 			</Target>
-			<Target title="Debug_CLANG_MSYS_W32">
+			<Target title="Debug CLANG MSYS W32">
 				<Option output="binCLANGMW32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGMW32/Debug/" />
 				<Option type="0" />
@@ -1187,9 +1187,12 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libcomdlg32" />
 					<Add library="libgdi32" />
 					<Add library="libwinmm" />
+					<Add library="libshell32" />
+					<Add library="libuser32" />
+					<Add library="libkernel32" />
 				</Linker>
 			</Target>
-			<Target title="Release_CLANG_MSYS_W32">
+			<Target title="Release CLANG MSYS W32">
 				<Option output="binCLANGMW32/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGMW32/release/" />
 				<Option type="0" />
@@ -1201,9 +1204,12 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libcomdlg32" />
 					<Add library="libgdi32" />
 					<Add library="libwinmm" />
+					<Add library="libshell32" />
+					<Add library="libuser32" />
+					<Add library="libkernel32" />
 				</Linker>
 			</Target>
-			<Target title="Debug_CLANG_MSYS_W64">
+			<Target title="Debug CLANG MSYS W64">
 				<Option output="binCLANGMW64/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGMW64/Debug/" />
 				<Option type="0" />
@@ -1220,9 +1226,12 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libcomdlg32" />
 					<Add library="libgdi32" />
 					<Add library="libwinmm" />
+					<Add library="libshell32" />
+					<Add library="libuser32" />
+					<Add library="libkernel32" />
 				</Linker>
 			</Target>
-			<Target title="Release_CLANG_MSYS_W64">
+			<Target title="Release CLANG MSYS W64">
 				<Option output="binCLANGMW64/Release/Lesson01" prefix_auto="1" extension_auto="1" />
 				<Option object_output="objCLANGMW64/release/" />
 				<Option type="0" />
@@ -1234,6 +1243,32 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 					<Add library="libcomdlg32" />
 					<Add library="libgdi32" />
 					<Add library="libwinmm" />
+					<Add library="libshell32" />
+					<Add library="libuser32" />
+					<Add library="libkernel32" />
+				</Linker>
+			</Target>
+			<Target title="Debug CLANG CYGWIN W32">
+				<Option output="binCLANGCW32/Debug/Lesson01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="objCLANGCW32/Debug/" />
+				<Option type="0" />
+				<Option compiler="clang_cygwin_w32_compiler" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option='-D__int64=&quot;long long&quot;' />
+					<Add option="-D_DEBUG" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="libglu32" />
+					<Add library="libopengl32" />
+					<Add library="libadvapi32" />
+					<Add library="libcomdlg32" />
+					<Add library="libgdi32" />
+					<Add library="libwinmm" />
+					<Add library="libshell32" />
+					<Add library="libuser32" />
+					<Add library="libkernel32" />
 				</Linker>
 			</Target>
 			<Target title="Archive">
@@ -1243,20 +1278,18 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 				<Option compiler="gcc" />
 				<ExtraCommands>
 					<Add before="cmd /c del *.7z" />
-					<Add before="cmd /c del *.tgz" />
 					<Add before="cmd /c del *.tar" />
-					<Add before='&quot;C:\CodeBlocks\cbp2make.exe&quot; --local -in $(project_dir)$(project_filename) -out makefile' />
 					<Add before="%PYTHON64% ..\..\tools\Size_exec.py $(PROJECT_NAME)" />
 					<Add before="%PYTHON64% ..\..\tools\Calc_checksums.py $(PROJECT_NAME)" />
-					<Add after='C:\Program Files\7-Zip\7z a  $(PROJECT_NAME)_$(TODAY)_src.7z src\* *.txt *.html build.cmake\* doxygen\* res\* data\* -p&quot;$(PROJECT_NAME)_tde&quot;' />
-					<Add after="C:\Program Files\7-Zip\7z a -ttar $(PROJECT_NAME)_$(TODAY)_all.tar * -x!*.7z" />
-					<Add after="C:\Program Files\7-Zip\7z a -tgzip $(PROJECT_NAME)_$(TODAY)_all.tgz *.tar" />
+					<Add after='C:\Program Files\7-Zip\7z a  $(PROJECT_NAME)_$(TODAY)_src.7z src\*.* res\*.* data\*.* build.cmake\*  build.cmake\*  *.bat *.txt *.html *.md doxygen\* doc\* *.cbp *.workspace -x!*.bak README makefile -mhe -p&quot;$(PROJECT_NAME)_tde@03!&quot;' />
+					<Add after="C:\Program Files\7-Zip\7z a -ttar $(PROJECT_NAME)_$(TODAY)_all.tar * -x!*.7z -x!*.bak" />
+					<Add after='C:\Program Files\7-Zip\7z a $(PROJECT_NAME)_$(TODAY)_all.7z *.tar -mhe -p&quot;$(PROJECT_NAME)_tde@03!&quot;' />
 					<Add after="cmd /c del *.tar" />
 				</ExtraCommands>
 			</Target>
 		</Build>
 		<VirtualTargets>
-			<Add alias="All_build" targets="Debug_Mingw32_official;Release_Mingw32_official;Debug_Mingw64_CB;Release_Mingw64_CB;Debug_Mingw64_Dev-Cpp;Release_Mingw64_Dev-Cpp;Debug_CYGWIN_32;Release_CYGWIN_32;Debug_CYGWIN_64;Release_CYGWIN_64;Debug_Mingw32_wl;Release_Mingw32_wl;Debug_Mingw64_wl;Release_Mingw64_wl;Debug_TDM_MinGW32;Release_TDM_MinGW32;Debug_TDM_MinGW64;Release_TDM_MinGW64;Debug_MSYS2W32;Release_MSYS2W32;Debug_MSYS2W64;Release_MSYS2W64;Debug_VS2022_X32;Release_VS2022_X32;Debug_VS2022_X64;Release_VS2022_X64;Debug_DMC;Release_DMC;Debug_lcc;Release_lcc;Debug_lcc64;Release_lcc64;Debug_BorlandC;Release_BorlandC;Debug_OW_32;Release_OW_32;Debug_PELLES_C;Release_PELLES_C;Debug_PELLES_C_64;Release_PELLES_C_64;Debug_CLANG_Mingw32;Release_CLANG_Mingw32;Debug_CLANG_Mingw64;Release_CLANG_Mingw64;Debug_CLANG_MSX32;Release_CLANG_MSX32;Debug_CLANG_MSX64;Release_CLANG_MSX64;Debug_CLANG_MSYS_W32;Release_CLANG_MSYS_W32;Debug_CLANG_MSYS_W64;Release_CLANG_MSYS_W64;Archive;" />
+			<Add alias="All build" targets="Debug Mingw32 official;Release Mingw32 official;Debug Mingw64 CB;Release Mingw64 CB;Debug Mingw64 Dev-Cpp;Release Mingw64 Dev-Cpp;Debug CYGWIN 32;Release CYGWIN 32;Debug CYGWIN 64;Release CYGWIN 64;Debug Mingw32 wl;Release Mingw32 wl;Debug Mingw64 wl;Release Mingw64 wl;Debug TDM MinGW32;Release TDM MinGW32;Debug TDM MinGW64;Release TDM MinGW64;Debug MSYS2W32;Release MSYS2W32;Debug MSYS2W64;Release MSYS2W64;Debug VS2022 X32;Release VS2022 X32;Debug VS2022 X64;Release VS2022 X64;Debug DMC;Release DMC;Debug lcc;Release lcc;Debug lcc64;Release lcc64;Debug BorlandC;Release BorlandC;Debug OW 32;Release OW 32;Debug OW 64;Release OW 64;Debug PELLES C;Release PELLES C;Debug PELLES C 64;Release PELLES C 64;Debug CLANG Mingw32;Release CLANG Mingw32;Debug CLANG Mingw64;Release CLANG Mingw64;Debug CLANG MSX32;Release CLANG MSX32;Debug CLANG MSX64;Release CLANG MSX64;Debug CLANG MSYS W32;Release CLANG MSYS W32;Debug CLANG MSYS W64;Release CLANG MSYS W64;Archive;" />
 		</VirtualTargets>
 		<Unit filename="src/Lesson01.c">
 			<Option compilerVar="CC" />
@@ -1266,16 +1299,22 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release Mingw64 CB" />
 			<Option target="Debug Mingw64 Dev-Cpp" />
 			<Option target="Release Mingw64 Dev-Cpp" />
+			<Option target="Debug CYGWIN 32" />
+			<Option target="Release CYGWIN 32" />
 			<Option target="Debug CYGWIN 64" />
 			<Option target="Release CYGWIN 64" />
+			<Option target="Debug Mingw32 wl" />
+			<Option target="Release Mingw32 wl" />
 			<Option target="Debug Mingw64 wl" />
 			<Option target="Release Mingw64 wl" />
 			<Option target="Debug TDM MinGW32" />
 			<Option target="Release TDM MinGW32" />
 			<Option target="Debug TDM MinGW64" />
 			<Option target="Release TDM MinGW64" />
-			<Option target="Debug Mingw32 wl" />
-			<Option target="Release Mingw32 wl" />
+			<Option target="Debug MSYS2W32" />
+			<Option target="Release MSYS2W32" />
+			<Option target="Debug MSYS2W64" />
+			<Option target="Release MSYS2W64" />
 			<Option target="Debug VS2022 X32" />
 			<Option target="Release VS2022 X32" />
 			<Option target="Debug VS2022 X64" />
@@ -1290,14 +1329,10 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release BorlandC" />
 			<Option target="Debug OW 32" />
 			<Option target="Release OW 32" />
-			<Option target="Debug OW 64" />
-			<Option target="Release OW 64" />
 			<Option target="Debug PELLES C" />
 			<Option target="Release PELLES C" />
 			<Option target="Debug PELLES C 64" />
 			<Option target="Release PELLES C 64" />
-			<Option target="Debug MSYS2W64" />
-			<Option target="Release MSYS2W64" />
 			<Option target="Debug CLANG Mingw32" />
 			<Option target="Release CLANG Mingw32" />
 			<Option target="Debug CLANG Mingw64" />
@@ -1306,14 +1341,13 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release CLANG MSX32" />
 			<Option target="Debug CLANG MSX64" />
 			<Option target="Release CLANG MSX64" />
-			<Option target="Debug CYGWIN 32" />
-			<Option target="Release CYGWIN 32" />
-			<Option target="Debug MSYS2W32" />
-			<Option target="Release MSYS2W32" />
 			<Option target="Debug CLANG MSYS W32" />
 			<Option target="Release CLANG MSYS W32" />
 			<Option target="Debug CLANG MSYS W64" />
 			<Option target="Release CLANG MSYS W64" />
+			<Option target="Debug CLANG CYGWIN W32" />
+			<Option target="Debug OW 64" />
+			<Option target="Release OW 64" />
 		</Unit>
 		<Unit filename="src/Lesson01.rc">
 			<Option compilerVar="WINDRES" />
@@ -1323,16 +1357,22 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release Mingw64 CB" />
 			<Option target="Debug Mingw64 Dev-Cpp" />
 			<Option target="Release Mingw64 Dev-Cpp" />
+			<Option target="Debug CYGWIN 32" />
+			<Option target="Release CYGWIN 32" />
 			<Option target="Debug CYGWIN 64" />
 			<Option target="Release CYGWIN 64" />
+			<Option target="Debug Mingw32 wl" />
+			<Option target="Release Mingw32 wl" />
 			<Option target="Debug Mingw64 wl" />
 			<Option target="Release Mingw64 wl" />
 			<Option target="Debug TDM MinGW32" />
 			<Option target="Release TDM MinGW32" />
 			<Option target="Debug TDM MinGW64" />
 			<Option target="Release TDM MinGW64" />
-			<Option target="Debug Mingw32 wl" />
-			<Option target="Release Mingw32 wl" />
+			<Option target="Debug MSYS2W32" />
+			<Option target="Release MSYS2W32" />
+			<Option target="Debug MSYS2W64" />
+			<Option target="Release MSYS2W64" />
 			<Option target="Debug VS2022 X32" />
 			<Option target="Release VS2022 X32" />
 			<Option target="Debug VS2022 X64" />
@@ -1347,30 +1387,25 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release BorlandC" />
 			<Option target="Debug OW 32" />
 			<Option target="Release OW 32" />
-			<Option target="Debug OW 64" />
-			<Option target="Release OW 64" />
 			<Option target="Debug PELLES C" />
 			<Option target="Release PELLES C" />
 			<Option target="Debug PELLES C 64" />
 			<Option target="Release PELLES C 64" />
-			<Option target="Debug MSYS2W64" />
-			<Option target="Release MSYS2W64" />
-			<Option target="Debug CLANG Mingw64" />
-			<Option target="Release CLANG Mingw64" />
 			<Option target="Debug CLANG Mingw32" />
 			<Option target="Release CLANG Mingw32" />
-			<Option target="Debug CLANG MSX64" />
-			<Option target="Release CLANG MSX64" />
+			<Option target="Debug CLANG Mingw64" />
+			<Option target="Release CLANG Mingw64" />
 			<Option target="Debug CLANG MSX32" />
 			<Option target="Release CLANG MSX32" />
-			<Option target="Debug CYGWIN 32" />
-			<Option target="Release CYGWIN 32" />
-			<Option target="Debug MSYS2W32" />
-			<Option target="Release MSYS2W32" />
+			<Option target="Debug CLANG MSX64" />
+			<Option target="Release CLANG MSX64" />
 			<Option target="Debug CLANG MSYS W32" />
 			<Option target="Release CLANG MSYS W32" />
 			<Option target="Debug CLANG MSYS W64" />
 			<Option target="Release CLANG MSYS W64" />
+			<Option target="Debug CLANG CYGWIN W32" />
+			<Option target="Debug OW 64" />
+			<Option target="Release OW 64" />
 		</Unit>
 		<Unit filename="src/resource.h">
 			<Option target="Debug Mingw32 official" />
@@ -1379,16 +1414,22 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release Mingw64 CB" />
 			<Option target="Debug Mingw64 Dev-Cpp" />
 			<Option target="Release Mingw64 Dev-Cpp" />
+			<Option target="Debug CYGWIN 32" />
+			<Option target="Release CYGWIN 32" />
 			<Option target="Debug CYGWIN 64" />
 			<Option target="Release CYGWIN 64" />
+			<Option target="Debug Mingw32 wl" />
+			<Option target="Release Mingw32 wl" />
 			<Option target="Debug Mingw64 wl" />
 			<Option target="Release Mingw64 wl" />
 			<Option target="Debug TDM MinGW32" />
 			<Option target="Release TDM MinGW32" />
 			<Option target="Debug TDM MinGW64" />
 			<Option target="Release TDM MinGW64" />
-			<Option target="Debug Mingw32 wl" />
-			<Option target="Release Mingw32 wl" />
+			<Option target="Debug MSYS2W32" />
+			<Option target="Release MSYS2W32" />
+			<Option target="Debug MSYS2W64" />
+			<Option target="Release MSYS2W64" />
 			<Option target="Debug VS2022 X32" />
 			<Option target="Release VS2022 X32" />
 			<Option target="Debug VS2022 X64" />
@@ -1403,30 +1444,25 @@ Paradigm : obtain one source (only one !) compatible for multiple free C Compile
 			<Option target="Release BorlandC" />
 			<Option target="Debug OW 32" />
 			<Option target="Release OW 32" />
-			<Option target="Debug OW 64" />
-			<Option target="Release OW 64" />
 			<Option target="Debug PELLES C" />
 			<Option target="Release PELLES C" />
 			<Option target="Debug PELLES C 64" />
 			<Option target="Release PELLES C 64" />
-			<Option target="Debug MSYS2W64" />
-			<Option target="Release MSYS2W64" />
-			<Option target="Debug CLANG Mingw64" />
-			<Option target="Release CLANG Mingw64" />
 			<Option target="Debug CLANG Mingw32" />
 			<Option target="Release CLANG Mingw32" />
-			<Option target="Debug CLANG MSX64" />
-			<Option target="Release CLANG MSX64" />
+			<Option target="Debug CLANG Mingw64" />
+			<Option target="Release CLANG Mingw64" />
 			<Option target="Debug CLANG MSX32" />
 			<Option target="Release CLANG MSX32" />
-			<Option target="Debug CYGWIN 32" />
-			<Option target="Release CYGWIN 32" />
-			<Option target="Debug MSYS2W32" />
-			<Option target="Release MSYS2W32" />
+			<Option target="Debug CLANG MSX64" />
+			<Option target="Release CLANG MSX64" />
 			<Option target="Debug CLANG MSYS W32" />
 			<Option target="Release CLANG MSYS W32" />
 			<Option target="Debug CLANG MSYS W64" />
 			<Option target="Release CLANG MSYS W64" />
+			<Option target="Debug CLANG CYGWIN W32" />
+			<Option target="Debug OW 64" />
+			<Option target="Release OW 64" />
 		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />

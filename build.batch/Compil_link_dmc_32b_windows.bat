@@ -22,8 +22,10 @@ REM 					(certains compilateurs ne sont pas capables de les créer ONLINE s'ils 
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				26 Septembre 2022   
-REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 								la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources 
+REM 									est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -32,11 +34,9 @@ REM set dmc=C:\dmc
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -58,6 +58,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "Digital Mars Compiler C/C++ v8.57 -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-c -mn" 
 dmc %CFLAGS% -DNDEBUG -I%INC1% -I%INC2% -I%INC3% -oobjDMC\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c 
@@ -72,6 +73,7 @@ link /NOLOGO /subsystem:console /debug objDMC\Debug\%NAME_APPLI%.obj , , binDMC\
 goto FIN
 
 :APPWIN
+echo "Digital Mars Compiler C/C++ v8.57 -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-c -mn"
 dmc %CFLAGS% -DNDEBUG -I%INC1% -I%INC2% -I%INC3% -oobjDMC\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -86,6 +88,7 @@ link /NOLOGO /subsystem:windows /debug objDMC\Debug\%NAME_APPLI%.obj ,  binDMC\D
 goto FIN
 
 :LIBRA
+echo "Digital Mars Compiler C/C++ v8.57 -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-c -mn"
 dmc %CFLAGS% -DNDEBUG  -I%INC1% -I%INC2% -I%INC3% -oobjDMC\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -100,6 +103,7 @@ lib -c binDMC\Debug\%NAME_APPLI%.lib objDMC\Debug\%NAME_APPLI%.obj
 goto FIN
 
 :DLLA
+echo "Digital Mars Compiler C/C++ v8.57 -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-c -mn -WD"
 dmc %CFLAGS% -DNDEBUG  -I%INC1% -I%INC2% -I%INC3% -oobjDMC\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

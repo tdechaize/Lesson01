@@ -31,11 +31,9 @@ REM ----------------------------------------------------------------------------
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -56,6 +54,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "Borland C/C++ 5.5 -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-c -w -w-par -w-inl -W -a1 -O2 -6"
 bcc32 %CFLAGS% -DNDEBUG -I%INCLUDE% -oobjBC55\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -70,6 +69,7 @@ ilink32 -q -aa -V4.0 -c -x -Gn -L"%LIB1%" -L"%LIB2%" c0x32w.obj objBC55\Debug\%N
 goto FIN
 
 :APPWIN
+echo "Borland C/C++ 5.5 -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-c -tWM -w -w-par -w-inl -W -a1 -O2 -6"
 bcc32 %CFLAGS% -DNDEBUG -I%INCLUDE% -oobjBC55\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -84,6 +84,7 @@ ilink32 -q -aa -V4.0 -c -x -Gn -L"%LIB1%" -L"%LIB2%" c0w32.obj objBC55\Debug\%NA
 goto FIN
 
 :LIBRA
+echo "Borland C/C++ 5.5 -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-c -w -w-par -w-inl -W -a1 -O2 -6"
 bcc32 %CFLAGS% -DNDEBUG -I%INCLUDE% -oobjBC55\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -114,6 +115,7 @@ REM
 REM     Notice in the command line that there are items seperated by commas. One part of the command line has 2 commas with nothing in between. This part of the command line is for dependency files (.DEP) which we don’t need for a dll. 
 
 :DLLA
+echo "Borland C/C++ 5.5 -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "FLAGS=-c -w -w-par -w-inl -W -a1 -O2 -6"
 bcc32 %CFLAGS% -DNDEBUG -I%INCLUDE% -oobjBC55\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

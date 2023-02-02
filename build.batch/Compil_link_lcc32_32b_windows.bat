@@ -22,8 +22,10 @@ REM 					(certains compilateurs ne sont pas capables de les créer ONLINE s'ils 
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				26 Septembre 2022   
-REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	27 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 								la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais le structure des sources 
+REM 									est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -32,11 +34,9 @@ REM set lcc32=C:\lcc
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -45,7 +45,7 @@ set SOURCE_DIR=%1
 set NAME_APPLI=%2
 cd %SOURCE_DIR%
 
-REM    Génération d'une application [console|windows|lib|dll] (compil + link/lcclib) pour le compilateur Borland C/C++ 5.51 
+REM    Génération d'une application [console|windows|lib|dll] (compil + link/lcclib) pour le compilateur LCC 32 bits Version 3.8 
 :BCC
 SET PATH=C:\lcc\bin;%PATH%
 SET INCLUDE=C:\lcc\include
@@ -56,6 +56,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "LCC32 -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-c"
 lcc %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -70,6 +71,7 @@ lcclnk -subsystem console -L"%LIB%" objlcc32\Debug\%NAME_APPLI%.obj objlcc32\Deb
 goto FIN
 
 :APPWIN
+echo "LCC32 -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-c"
 lcc %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -84,6 +86,7 @@ lcclnk -subsystem windows -L"%LIB%" objlcc32\Debug\%NAME_APPLI%.obj objlcc32\Deb
 goto FIN
 
 :LIBRA
+echo "LCC32 -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-c"
 lcc %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c
@@ -98,6 +101,7 @@ lcclib binlcc32\Debug\%NAME_APPLI%.lib objlcc32\Debug\%NAME_APPLI%.obj
 goto FIN
 
 :DLLA
+echo "LCC32 -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "FLAGS=-c"
 lcc %CFLAGS% -DNDEBUG -I%INCLUDE% -Foobjlcc32\Release\%NAME_APPLI%.obj src\%NAME_APPLI%.c

@@ -1,0 +1,3 @@
+C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32WL/Debug/CMakeFiles/Lesson01.dir
+C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32WL/Debug/CMakeFiles/edit_cache.dir
+C:/src/OpenGL/NeHe_Lesson01-master/build.cmake/MINGW32WL/Debug/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 @echo off
 REM ---------------------------------------------------------------------------------------------------
 REM
-REM		 Compil_link_CLANGX64_32b_windows.bat : 	Nom de ce batch  
+REM		 Compil_link_CLANGX64_64b_windows.bat : 	Nom de ce batch  
 REM
 REM      Batch de lancement d'une génération d'une application Windows (source C avec un fichier resource) 
 REM    avec le compilateur clang inclus dans le package Mingw64 lui même associé à l'IDE Code::Blocks.
@@ -23,8 +23,10 @@ REM 			(certains compilateurs ne sont pas capables de les créer ONLINE s'ils so
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				29 Septembre 2022   
-REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources est imposée sur le sous-répertoire \src /nologo : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 								la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources 
+REM 								est imposée sur le sous-répertoire \src /nologo : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -33,11 +35,9 @@ REM set LLVM=C:\Program Files (x86)\LLVM
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -46,7 +46,7 @@ set SOURCE_DIR=%1
 set NAME_APPLI=%2
 cd %SOURCE_DIR%
 
-REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur CLANG/LLVM 32 bits adossé à l'environnement VS2002 
+REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur CLANG/LLVM 64 bits adossé à l'environnement VS2002 
 :CLANGX64
 SET PATH=C:\Program Files\Microsoft Visual Studio\%VS_VERSION%\Community\VC\Tools\MSVC\%VS_NUM%\bin\Hostx64\x64;C:\Program Files (x86)\Windows Kits\%KIT_WIN_VERSION%\bin\%KIT_WIN_NUM%\x64;%PATH%
 SET PATH=%LLVM64%\bin;C:\Program Files\Microsoft Visual Studio\%VS_VERSION%\Community\Msbuild\Current\Bin\amd64;%PATH%
@@ -66,43 +66,46 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "CLANG (adossé à VS2022 64 bits) -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O2 -m64 -fms-extensions -target x86_64-pc-windows-msvc"
 clang %CFLAGS% -DNDEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%"- I%INC3% -I%INC4% -I%INC5% -o objCLANGX64\Release\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Release\%NAME_APPLI%.res src\%NAME_APPLI%.rc
 clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" objCLANGX64\Release\%NAME_APPLI%.obj objCLANGX64\Release\%NAME_APPLI%.res -o binCLANGX64\Release\%NAME_APPLI%.exe -Wl,--subsystem,console -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 :DEBCONS
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O0 -m64 -fms-extensions -target x86_64-pc-windows-msvc -g -gcodeview"
 clang %CFLAGS% -DDEBUG -D_DEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Debug\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Debug\%NAME_APPLI%.res src\%NAME_APPLI%.rc
-clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" -L %LIB3% -L %LIB4% -L %LIB5% objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.exe -Wl,--subsystem,console -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
+clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" -L %LIB3% -L %LIB4% -L %LIB5% objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.exe -Wl,--subsystem,console -Wl,--pdb=%NAME_APPLI%.pdb -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 
 :APPWIN
+echo "CLANG (adossé à VS2022 64 bits) -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O2 -m64 -fms-extensions -target x86_64-pc-windows-msvc"
 clang %CFLAGS% -DNDEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Release\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Release\%NAME_APPLI%.res src\%NAME_APPLI%.rc
 clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" objCLANGX64\Release\%NAME_APPLI%.obj objCLANGX64\Release\%NAME_APPLI%.res -o binCLANGX64\Release\%NAME_APPLI%.exe -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 :DEBAPP
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O0 -m64 -fms-extensions -target x86_64-pc-windows-msvc -g -gcodeview"
 clang %CFLAGS% -DDEBUG -D_DEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Debug\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Debug\%NAME_APPLI%.res src\%NAME_APPLI%.rc
-clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.exe -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
+clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.exe -Wl,--pdb=%NAME_APPLI%.pdb -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 
 :LIBRA
+echo "CLANG (adossé à VS2022 64 bits) -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O2 -m64 -fms-extensions -target x86_64-pc-windows-msvc"
 clang %CFLAGS% -DNDEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Release\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 REM rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Release\%NAME_APPLI%.res src\%NAME_APPLI%.rc
 REM ar ru binCLANGX64\Release\lib%NAME_APPLI%.a objCLANGX64\Release\%NAME_APPLI%.obj
 clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -o binCLANGX64\Release\%NAME_APPLI%.lib objCLANGX64\Release\%NAME_APPLI%.obj -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 :DEBLIB
-set "CFLAGS=-m64 -fms-extensions -target x86_64-pc-windows-msvc"
+set "CFLAGS=-O0 -m64 -fms-extensions -target x86_64-pc-windows-msvc -g -gcodeview"
 clang %CFLAGS% -DDEBUG -D_DEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Debug\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 REM rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%"/fo objCLANGX64\Debug\%NAME_APPLI%.res src\%NAME_APPLI%.rc
 REM ar ru binCLANGX64\Debug\lib%NAME_APPLI%.a objCLANGX64\Debug\%NAME_APPLI%.obj
@@ -110,17 +113,18 @@ clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -o binCLANGX64\Debug\%
 goto FIN
 
 :DLLA
+echo "CLANG (adossé à VS2022 64 bits) -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
-set "CFLAGS=-O2 -m64"
+set "CFLAGS=-O2 -m64 -fms-extensions -target x86_64-pc-windows-msvc"
 clang %CFLAGS% -DNDEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Release\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Release\%NAME_APPLI%.res src\%NAME_APPLI%.rc
 clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -shared -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" -Wl,--out-implib,binCLANGX64\Release\lib%NAME_APPLI%.a -W1,—export-all-symbols -Wl,—enable-auto-image-base -Wl,--subsystem,windows objCLANGX64\Release\%NAME_APPLI%.obj objCLANGX64\Release\%NAME_APPLI%.res -o binCLANGX64\Release\%NAME_APPLI%.dll -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 :DEBDLL
-set "CFLAGS=-m64 -O0 -g"
+set "CFLAGS=-O0 -m64 -fms-extensions -target x86_64-pc-windows-msvc -g -gcodeview"
 clang %CFLAGS% -DDEBUG -D_DEBUG -I"%INC1%" -I"%INC2%" -I"%INC3%" -I"%INC4%" -I"%INC5%" -o objCLANGX64\Debug\%NAME_APPLI%.obj -c src\%NAME_APPLI%.c
 rc /nologo /i"%INC1%" /i"%INC2%" /i"%INC3%" /i"%INC4%" /i"%INC5%" /fo objCLANGX64\Debug\%NAME_APPLI%.res src\%NAME_APPLI%.rc
-clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -shared -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" -Wl,--out-implib,binCLANGX64\Debug\lib%NAME_APPLI%.a -W1,—export-all-symbols -Wl,—enable-auto-image-base -Wl,--subsystem,windows objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.dll -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
+clang -m64 -fms-extensions -target x86_64-pc-windows-msvc -shared -L"%LIB1%" -L"%LIB2%" -L"%LIB3%" -L"%LIB4%" -L"%LIB5%" -Wl,--out-implib,binCLANGX64\Debug\lib%NAME_APPLI%.a -W1,—export-all-symbols -Wl,—enable-auto-image-base -Wl,--subsystem,windows -Wl,--pdb=%NAME_APPLI%.pdb objCLANGX64\Debug\%NAME_APPLI%.obj objCLANGX64\Debug\%NAME_APPLI%.res -o binCLANGX64\Debug\%NAME_APPLI%.dll -lglu32 -lopengl32 -ladvapi32 -lcomdlg32 -lgdi32 -lwinmm -luser32 -lkernel32
 goto FIN
 
 :usage

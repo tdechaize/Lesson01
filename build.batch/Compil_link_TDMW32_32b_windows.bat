@@ -4,7 +4,7 @@ REM
 REM		 Compil_link_TDM32_32b_windows.bat : 	Nom de ce batch  
 REM
 REM      Batch de lancement d'une génération d'une application Windows (source C avec un fichier resource) 
-REM    avec le compilateur GCC inclus dans le package Mingw64 lui même associé à l'IDE Code::Blocks.
+REM    avec le compilateur GCC inclus dans le package Mingw32 de TDM.
 REM
 REM     Dans les grands principes, on modifie certaines variables d'environnement dont le PATH Windows, afin 
 REM     de pouvoir lancer une compilation du source C, du fichier de resource et enfin de l'édition de lien
@@ -23,8 +23,10 @@ REM 			(certains compilateurs ne sont pas capables de les créer ONLINE s'ils so
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				29 Septembre 2022   
-REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
-REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
+REM 	Date dernière modification : 	29 septembre 2022  -> adjonction de deux nouveaux paramètres afin de gérer : 
+REM 									la cible attendue (Console, appli windows, lib ou dll) et le mode DEBUG|RELEASE.
+REM 	Détails des modifications : 	le paramétrage permet une certaine généricité, mais la structure des sources est 
+REM 									imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_APPLI%.rc
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
@@ -33,11 +35,9 @@ REM set TDM32=C:\TDM-GCC-32
 if [%1]==[] goto usage
 if [%2]==[] goto usage
 if not exist %1\ goto usage
-@echo on
 echo "Répertoire principal de l'application : %1"
 echo "Nom de l'application  				: %2"
 
-@echo off
 set DIRINIT=%CD%
 SET PATHSAV=%PATH%
 SET LIBSAV=%LIB%
@@ -46,8 +46,8 @@ set SOURCE_DIR=%1
 set NAME_APPLI=%2
 cd %SOURCE_DIR%
 
-REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur GCC (MingW64 de CB)
-:MINGW64CB
+REM    Génération d'une application [console|windows|lib|dll] (compil + link/ar) pour le compilateur GCC (TDM32)
+:TDMW32
 set PATH=%TDM32%\bin;%PATH%
 set INCLUDE=%TDM32%\i686-w64-mingw32\include
 set LIB=%TDM32%\i686-w64-mingw32\lib
@@ -57,6 +57,7 @@ if "%3"=="lib" goto LIBRA
 if "%3"=="dll" goto DLLA
 
 :CONSOL
+echo "GCC 32b TDMW32 -> Genération console de l'application en mode : %4"
 if "%4"=="Debug" goto DEBCONS
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objTDMW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -71,6 +72,7 @@ gcc -m32 -mconsole -L"%LIB%" objTDMW32\Debug\%NAME_APPLI%.o objTDMW32\Debug\%NAM
 goto FIN
 
 :APPWIN
+echo "GCC 32b TDMW32 -> Genération windows de l'application en mode : %4"
 if "%4"=="Debug" goto DEBAPP
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objTDMW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -85,6 +87,7 @@ gcc -m32 -mwindows -L"%LIB%" objTDMW32\Debug\%NAME_APPLI%.o objTDMW32\Debug\%NAM
 goto FIN
 
 :LIBRA
+echo "GCC 32b TDMW32 -> Genération d'une librairie en mode : %4"
 if "%4"=="Debug" goto DEBLIB
 set "CFLAGS=-O2 -m32"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objTDMW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
@@ -101,6 +104,7 @@ gcc -m32 -o binTDMW32\Debug\%NAME_APPLI%.lib objTDMW32\Debug\%NAME_APPLI%.o -lgl
 goto FIN
 
 :DLLA
+echo "GCC 32b TDMW32 -> Genération d'une librairie partagée (.ie. DLL) en mode : %4"
 if "%4"=="Debug" goto DEBDLL
 set "CFLAGS=-O2 -m32 -fPIC"
 gcc %CFLAGS% -DNDEBUG -I%INCLUDE% -o objTDMW32\Release\%NAME_APPLI%.o -c src\%NAME_APPLI%.c
