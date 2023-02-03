@@ -30,7 +30,7 @@ REM 									est imposée sur le sous-répertoire \src : %NAME_APPLI%.c + %NAME_
 REM 	Version de ce script :			1.1.3  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
 REM ---------------------------------------------------------------------------------------------------
-REM set DEVCPP=C:\Program Files\RedPanda-Cpp\MinGW64
+REM set DEVCPP=C:\RedPanda-Cpp\MinGW64
 
 if [%1]==[] goto usage
 if [%2]==[] goto usage

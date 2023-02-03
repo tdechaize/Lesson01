@@ -10,6 +10,30 @@
 *
 */
 
+ /***************************************************************
+ *  Project: Lesson01
+ *  Function : Main program
+ ***************************************************************
+ *  $Author: Thierry DECHAIZE
+ *  $Name:  $
+ ***************************************************************/
+
+/**         Comments manageable by Doxygen
+*
+*  Created by Thierry DECHAIZE
+*
+*  Date : 2023/02/03
+*
+* \file            Lesson01.rc
+* \author          Thierry Dechaize
+* \version         2.0.1.0
+* \date            3 février 2023
+* \brief           Juste un fichier d'include.
+* \details         Quelques identifiants permettant de manipuler l'interface Windows (pour certains compilateurs un peu anciens !)
+*
+*
+*/
+
 #if defined(_WIN32) || defined(_WIN64)
 
 #include <windows.h>
@@ -63,6 +87,8 @@ IDI_MYICON 				ICON 					"..\\res\\opengl.ico"
 #define VER_PRODUCTNAME_STR "OpenGL Lesson 01 - Digital Mars Compiler\0"
 #elif defined(__POCC__)
 #define VER_PRODUCTNAME_STR "OpenGL Lesson 01 - PELLES C Compiler\0"
+#elif defined(__clang__)
+#define VER_PRODUCTNAME_STR "OpenGL Lesson 01 - CLANG Compiler\0"
 #else
 #define VER_PRODUCTNAME_STR "OpenGL Lesson 01 - Unknown Compiler\0"
 #endif

@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_CHECK_RC
 
 # The include file search paths:
 set(CMAKE_RC_TARGET_INCLUDE_PATH
-  "C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include"
+  "C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include"
   )
 
 # The set of dependency files which are needed:

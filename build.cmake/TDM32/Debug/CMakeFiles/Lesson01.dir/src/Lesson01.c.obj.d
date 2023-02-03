@@ -16,26 +16,5 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  C:/TDM-GCC-32/include/winnls.h C:/TDM-GCC-32/include/winver.h \
  C:/TDM-GCC-32/include/winnetwk.h C:/TDM-GCC-32/include/winreg.h \
  C:/TDM-GCC-32/include/reason.h C:/TDM-GCC-32/include/winsvc.h \
- C:/TDM-GCC-32/include/cderr.h C:/TDM-GCC-32/include/dde.h \
- C:/TDM-GCC-32/include/ddeml.h C:/TDM-GCC-32/include/dlgs.h \
- C:/TDM-GCC-32/include/imm.h C:/TDM-GCC-32/include/lzexpand.h \
- C:/TDM-GCC-32/include/mmsystem.h C:/TDM-GCC-32/include/nb30.h \
- C:/TDM-GCC-32/include/rpc.h C:/TDM-GCC-32/include/rpcdce.h \
- C:/TDM-GCC-32/include/basetyps.h C:/TDM-GCC-32/include/rpcdcep.h \
- C:/TDM-GCC-32/include/rpcnsi.h C:/TDM-GCC-32/include/rpcnterr.h \
- C:/TDM-GCC-32/include/shellapi.h C:/TDM-GCC-32/include/pshpack2.h \
- C:/TDM-GCC-32/include/winperf.h C:/TDM-GCC-32/include/commdlg.h \
- C:/TDM-GCC-32/include/unknwn.h C:/TDM-GCC-32/include/objfwd.h \
- C:/TDM-GCC-32/include/wtypes.h C:/TDM-GCC-32/include/rpcndr.h \
- C:/TDM-GCC-32/include/rpcnsip.h C:/TDM-GCC-32/include/prsht.h \
- C:/TDM-GCC-32/include/winspool.h C:/TDM-GCC-32/include/winsock.h \
- C:/TDM-GCC-32/include/winsock2.h C:/TDM-GCC-32/include/sys/bsdtypes.h \
- C:/TDM-GCC-32/include/sys/time.h C:/TDM-GCC-32/include/nspapi.h \
- C:/TDM-GCC-32/include/wtypes.h C:/TDM-GCC-32/include/ole2.h \
- C:/TDM-GCC-32/include/objbase.h C:/TDM-GCC-32/include/stdlib.h \
- C:/TDM-GCC-32/include/errno.h C:/TDM-GCC-32/include/alloca.h \
- C:/TDM-GCC-32/include/objidl.h C:/TDM-GCC-32/include/cguid.h \
- C:/TDM-GCC-32/include/olectlid.h C:/TDM-GCC-32/include/oleauto.h \
- C:/TDM-GCC-32/include/oaidl.h C:/TDM-GCC-32/include/oleidl.h \
  C:/TDM-GCC-32/include/gl/gl.h \
  C:\src\OpenGL\NeHe_Lesson01-master\src\resource.h

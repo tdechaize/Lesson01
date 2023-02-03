@@ -39,7 +39,7 @@
 *
 *	a) Mingw 32 bits, version officielle gcc 9.2.0 (very old !) : downloadable on http://sourceforge.net/projects/mingw/ (official)
 *	b) Mingw 64 bits included in new IDE Red Panda Dev-Cpp, version gcc 12.2.0 : donwloadable on https://sourceforge.net/projects/redpanda-cpp/files/
-*	c) Mingw 64 bits included in package Code::Blocks (version 20.03), version gcc 8.1.0 : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
+*	c) Mingw 64 bits included in package Code::Blocks (version 20.03 with mingw), version gcc 11.2.0 : downloadable on http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/
 *	d) Mingw 32 and 64 bits packagés, version gcc 11.2.0 : downloadable on  https://winlibs.com/ (and CLANG included in, 32 and 64 bits), two kits :
 *			- winlibs-i686-posix-dwarf-gcc-12.2.0-llvm-15.0.7-mingw-w64ucrt-10.0.0-r4.7z (32 bits)
 *			- winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-15.0.7-mingw-w64ucrt-10.0.0-r4.7z (64 bits)
@@ -60,21 +60,21 @@
 *   TDE -> Add resource file end resource header for restitute version + icon OpenGL.ico for fun
 *			because versionning is important, same for freeware :-) !
 *
-*  Date : 2023/02/02
+*  Date : 2023/02/03
 *
 * \file            Lesson01.c
 * \author          Jeff Molofee ( NeHe ) originely, adapted by Thierry Dechaize
 * \version         2.0.1.0
-* \date            2 février 2023
+* \date            3 février 2023
 * \brief           Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec OpenGL.
 * \details         Ce programme ne gére que deux événements : le clic sur le bouton "Fermé" de la fenêtre ou la sortie par la touche ESC.
 *
 *
 */
 
-#ifdef __CYGWIN__
+
 #define WIN32_LEAN_AND_MEAN
-#endif
+
 #include <windows.h>   /* Bug with LCC64 : two define function 'GetProcessWorkingSetSize' and 'SetProcessWorkingSetSize'in win.h */
 #if defined( __LCC__ )
 #ifndef WINGDIAPI
@@ -99,7 +99,7 @@ void DisableOpenGL(HWND, HDC, HGLRC);
 * \param      hPrevInstance     L'header de l'instance de la fenêtre précédente (si besoin).
 * \param      lpCmdLine         Un pointeur sur la ligne de cammande.
 * \param      nCmdShow          Un indicateur.
-* \return     int               Le status du lacement et de la creation de la fenetre (ok ou non).
+* \return     int               Le status du lancement et de la creation de la fenêtre (ok ou non).
 *
 */
 
@@ -215,7 +215,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 *
 * \brief      Fonction CALLBACK de traitement des messages Windows
 * \details    Traitement de la boucle infinie des messages Windows
-* \param      hWnd         L'header de la fenêtre principale.
+* \param      hwnd         L'header de la fenêtre principale.
 * \param      uMsg         Un entier non signé.
 * \param      wParam       Les paramétres en entrée.
 * \param      lParam       Autres paramétres en entrée.
@@ -259,8 +259,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 * \param      hwnd         L'header de la fenêtre principale.
 * \param      hDC          L'header du Device Context.
 * \param      hRC          L'header du Resource Context sous OpenGL.
-* \return     void         Void (aucun)
-*
 */
 
 void EnableOpenGL(HWND hwnd, HDC* hDC, HGLRC* hRC)
@@ -301,7 +299,6 @@ void EnableOpenGL(HWND hwnd, HDC* hDC, HGLRC* hRC)
 * \param      hwnd         L'header de la fenêtre principale.
 * \param      hDC          L'header du Device Context.
 * \param      hRC          L'header du Resource Context sous OpenGL.
-* \return     void         Void (aucun)
 *
 */
 

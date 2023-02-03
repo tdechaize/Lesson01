@@ -294,6 +294,14 @@ minwindef.h
 minwinbase.h
 -
 
+C:/msys64/mingw32/include/joystickapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
 C:/msys64/mingw32/include/ktmtypes.h
 
 C:/msys64/mingw32/include/libloaderapi.h
@@ -320,6 +328,14 @@ crtdefs.h
 mm_malloc.h
 -
 
+C:/msys64/mingw32/include/mciapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
 C:/msys64/mingw32/include/mcx.h
 
 C:/msys64/mingw32/include/memoryapi.h
@@ -344,10 +360,66 @@ specstrings.h
 winnt.h
 -
 
-C:/msys64/mingw32/include/mmsystem.h
-_mingw_unicode.h
+C:/msys64/mingw32/include/mmeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+nt.h
+-
+ntrtl.h
+-
+nturtl.h
+-
+windows.h
+-
+mmsyscom.h
+-
+
+C:/msys64/mingw32/include/mmiscapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/msys64/mingw32/include/mmiscapi2.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
+-
+
+C:/msys64/mingw32/include/mmsyscom.h
+winapifamily.h
 -
 pshpack1.h
+-
+poppack.h
+-
+
+C:/msys64/mingw32/include/mmsystem.h
+winapifamily.h
+-
+mmsyscom.h
+-
+pshpack1.h
+-
+mciapi.h
+-
+mmiscapi.h
+-
+mmiscapi2.h
+-
+playsoundapi.h
+-
+mmeapi.h
+-
+timeapi.h
+-
+joystickapi.h
 -
 poppack.h
 -
@@ -362,6 +434,8 @@ windows.h
 ole2.h
 -
 unknwn.h
+-
+wtypes.h
 -
 objidl.h
 -
@@ -504,6 +578,14 @@ ole2.h
 objidl.h
 -
 winapifamily.h
+-
+
+C:/msys64/mingw32/include/playsoundapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
 -
 
 C:/msys64/mingw32/include/poppack.h
@@ -854,6 +936,14 @@ apisetcconv.h
 minwindef.h
 -
 minwinbase.h
+-
+
+C:/msys64/mingw32/include/timeapi.h
+apiset.h
+-
+apisetcconv.h
+-
+mmsyscom.h
 -
 
 C:/msys64/mingw32/include/timezoneapi.h

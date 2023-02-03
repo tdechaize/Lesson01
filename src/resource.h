@@ -12,6 +12,30 @@
 *
 */
 
+ /***************************************************************
+ *  Project: Lesson01
+ *  Function : Main program
+ ***************************************************************
+ *  $Author: Thierry DECHAIZE
+ *  $Name:  $
+ ***************************************************************/
+
+/**         Comments manageable by Doxygen
+*
+*  Created by Thierry DECHAIZE
+*
+*  Date : 2023/02/03
+*
+* \file            resource.h
+* \author          Thierry Dechaize
+* \version         2.0.1.0
+* \date            3 février 2023
+* \brief           Juste un fichier d'include.
+* \details         Quelques identifiants permettant de manipuler l'interface Windows (pour certains compilateurs un peu anciens !)
+*
+*
+*/
+
 #ifndef HEADER_RESOURCE__INCLUDED
 #define HEADER_RESOURCE__INCLUDED
 

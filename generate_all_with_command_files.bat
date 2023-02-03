@@ -4,8 +4,11 @@ REM
 REM		 generate_all_with_command_files.bat : 	Nom de ce batch  
 REM
 REM      Batch de lancement de toutes les générations d'une application Windows (source C avec un fichier resource) 
-REM    avec plusieurs batch de génération, on d'une seule génération, si le deuxième paramètre fait partie de la liste suivante :
-REM    
+REM    avec plusieurs batchs de génération, ou bien d'une seule génération ciblée.
+REM
+REM		Cette proécédure gère trois paramètres : le répertoire de l'application à générer, le nom de l'application (qui devinet le nom de l'exécutable), et un paramètre optionnel
+REM     l'id de la génération, qui fait partie de la liste suivante :
+REM
 REM          [BCC|MINGW32OF|MINGW64CB|DEVCPP|CYGWIN32|CYGWIN64|MINGW32WL|MINGW64WL|TDM32|TDM64|MSYS2W32|MSYS2W64|NMAKEX32|NMAKEX64|VS2022X32|VS2022X64|CLANGX32|CLANGX64|CLANGW32|CLANGW64|CLANGMW32|CLANGMW64|DMC|LCC32|LCC64|PELLESC32|PELLESC64|WATCOM32|WATCOM64] 
 REM
 REM     Dans les grands principes, il y a un fichier batch différent pour chaque catégorie de compilateurs stocké sous %APPLI_DIR%\build.batch\Compil_link_"Id Compilateur"_[32|64]b_windows.bat
@@ -13,12 +16,12 @@ REM     Il est nécessaire de générer l'application attendue pour chacune des ver
 REM     Il faut bien etendu, positionner pour chaque compilateur les variables d'environnement PATH, et parfois LIB et INCLUDE, mais tout cette "tambouille" d'identification de répertoires
 REM 	est bien gérée dans chacun de ces batchs. J'ai ainsi permis un totale autonomie : vous pouvez les utilisez indépendamment de TOUTES contraintes d'outils tierces.
 REM 	Seuls, les paramétrages de chaque PATH, INCLUDE (il peut en exister plusieurs INC1, INC2 ...) et LIB (il peuten exister plusieurs LIB, LIB2 ...) sont dépendants des répertoires
-REM     d'installtion des différents environnements de développement (IDE + compilateurs, compilateurs ou packages assimilant compilateurs + outils).
+REM     d'installation des différents environnements de développement (IDE + compilateurs, compilateurs ou packages assimilant compilateurs + outils).
 REM
 REM     Points d'attention, j'ai positionné des variables d'environnement sous Windows (en mode "système") pour gérer les différentes versions de Visual Studio, du KIT WINDOWS et de CLANG installees :
 REM          CLANG_VERSION     valué (à date) par       15.0.2     		(dernière version sur Windows 11, aussi bien pour les binaires valables pour VS2022 que pour les environnements Mingw et MSYS)
 REM          VS_VERSION        valué (à date) par       2022       		(dernière version sur Windows 11)
-REM          VS_NUM            valué (à date) par       14.33.31629     (dernière version sur Windows 11)
+REM          VS_NUM            valué (à date) par       14.34.31933     (dernière version sur Windows 11)
 REM          KIT_WIN_VERSION   valué (à date) par       10    			(dernière version sur Windows 11)
 REM          KIT_WIN_NUM       valué (à date) par       10.0.22621.0    (dernière version sur Windows 11)
 REM
@@ -27,7 +30,7 @@ REM          et ensuite on lance generate_all_with_command_files.bat "nom_répert
 REM 
 REM 	AUTHOR : 						Thierry DECHAIZE
 REM     Date de création :				10 octobre 2022   
-REM 	Date dernière modification : 	10 octobre 2022   -> adjonction d'un deuxième paramètre recupéré dans la variable %NAME_APPLI% pour augmenter le paramètrage de ce script.
+REM 	Date dernière modification : 	03 février 2023   -> des précisions dans les commentaires sur les paramètres possibles.
 REM 	Détails des modifications : 	Ce deuxième paramètre décale par conséquent le troisième (toujours optionnel) qui continue de servir de choix du générateur/compilateur souhaité pour tests.
 REM 	Version de ce script :			1.1.4  ->  "Version majeure" . "Version mineure" . "niveau de patch"
 REM
@@ -38,6 +41,13 @@ if not exist %1\ goto usage
 @echo on
 echo "Directory del'application : %1"
 echo "Nom de l'application  	: %2"
+
+set mydate=%date%
+set mytime=%time%
+set DAY=%mydate:~0,2%
+set MONTH=%mydate:~3,2%
+set YEAR=%mydate:~6,4%
+echo Beginning of generate_all_with_command_files.bat, current time is %mydate%:%mytime%
 
 @echo off
 set DIRINIT=%CD%
@@ -211,26 +221,23 @@ call %APPLI_DIR%\build.batch\Compil_link_OW64_64b_windows.bat %APPLI_DIR% %NAME_
 call %APPLI_DIR%\build.batch\Compil_link_OW64_64b_windows.bat %APPLI_DIR% %NAME_APPLI% windows Release
  
 :ARCHIVE
-cd %APPLI_DIR%
 del /Q *.7z *.tgz *.tar
-REM "C:\CodeBlocks\cbp2make.exe" --locall -in $(project_dir)$(project_filename) -out makefile
+REM "C:\CodeBlocks\cbp2make.exe" --local -in $(project_dir)$(project_filename) -out makefile
 @echo on
-%PYTHON64% C:\src\tools\Size_exec.py %NAME_APPLI%
-%PYTHON64% C:\src\tools\Calc_checksums.py %NAME_APPLI%
+%PYTHON64% ..\..\tools\Size_exec.py %NAME_APPLI%
+%PYTHON64% ..\..\tools\Calc_checksums.py %NAME_APPLI%
 set mydate=%date%
 set mytime=%time%
 set DAY=%mydate:~0,2%
 set MONTH=%mydate:~3,2%
 set YEAR=%mydate:~6,4%
-echo Current time is %mydate%:%mytime%
-echo Jour : %DAY%
-echo Mois : %MONTH%
-echo Année : %YEAR%
-"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_src.7z src\*.* res\*.* data\*.* build.cmake\* build.batch\* *.bat *.txt *.html *.md doxygen\* doc\* *.cbp *.workspace -x!*.bak -p"%NAME_APPLI%_tde"
-"C:\Program Files\7-Zip\7z" a -ttar %NAME_APPLI%-%YEAR%-%MONTH%_%DAY%_all.tar * -x!*.7z x!*.bak -p"%NAME_APPLI%_tde"
-"C:\Program Files\7-Zip\7z" a -tgzip %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_all.tgz *.tar
+echo End of generate_all_with_command_files.bat, current time is %mydate%:%mytime%
+"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_src.7z src\*.* res\*.* data\*.* build.cmake\* build.batch\* *.bat *.txt *.html *.md doxygen\* doc\* *.cbp *.workspace -x!*.bak README makefile -mhe -p"%NAME_APPLI%_tde@03!"
+"C:\Program Files\7-Zip\7z" a -ttar %NAME_APPLI%-%YEAR%-%MONTH%_%DAY%_all.tar * -x!*.7z x!*.bak 
+"C:\Program Files\7-Zip\7z" a %NAME_APPLI%_%YEAR%-%MONTH%-%DAY%_all.7z *.tar -mhe -p"%NAME_APPLI%_tde@03!"
 del /Q *.tar
 GOTO FIN
+
 
 :usage
 echo Usage : %0 DIRECTORY_SRC NAME_APPLI [Id_Compilateur] 

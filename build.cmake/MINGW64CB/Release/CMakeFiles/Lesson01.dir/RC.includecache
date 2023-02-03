@@ -23,8 +23,6 @@ _cygwin.h
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/_cygwin.h
 vadefs.h
 -
-sdks/_mingw_directx.h
-C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h
 sdks/_mingw_ddk.h
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
 
@@ -108,8 +106,20 @@ pshpack1.h
 poppack.h
 -
 
-C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h
+C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/concurrencysal.h
+
+C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt.h
 _mingw.h
+-
+winapifamily.h
+-
+
+C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h
+corecrt.h
+-
+
+C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/crtdefs.h
+corecrt.h
 -
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/ctype.h
@@ -151,6 +161,10 @@ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/dlgs.h
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/dpapi.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/driverspecs.h
+specstrings.h
+-
+concurrencysal.h
+-
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/errhandlingapi.h
 apiset.h
@@ -300,6 +314,8 @@ _mingw_unicode.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/malloc.h
 crtdefs.h
+-
+mm_malloc.h
 -
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/mcx.h
@@ -671,14 +687,14 @@ C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/rpcnterr.h
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/rpcsal.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sal.h
+concurrencysal.h
+-
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/scarderr.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdkddkver.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
-
-C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_directx.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
 stdlib.h
@@ -757,7 +773,9 @@ crtdefs.h
 -
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/stdlib.h
-crtdefs.h
+corecrt.h
+-
+corecrt_wstdlib.h
 -
 limits.h
 -
@@ -1011,6 +1029,8 @@ dpapi.h
 -
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/windef.h
+winapifamily.h
+-
 minwindef.h
 -
 winnt.h
@@ -1246,6 +1266,8 @@ poppack.h
 
 C:/CodeBlocks/MinGW/x86_64-w64-mingw32/include/winreg.h
 _mingw_unicode.h
+-
+winapifamily.h
 -
 reason.h
 -

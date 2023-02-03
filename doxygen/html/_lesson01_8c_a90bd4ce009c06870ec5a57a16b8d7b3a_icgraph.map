@@ -1,0 +1,4 @@
+<map id="DisableOpenGL" name="DisableOpenGL">
+<area shape="rect" id="node1" title="Fonction DisableOpenGL permettant la dé&#45;configuration d&#39;OpenGL pour la fenêtre principale." alt="" coords="125,5,239,31"/>
+<area shape="rect" id="node2" href="$_lesson01_8c.html#a661c2abc03926acfaeb93b4ae7db4943" title="Fonction WinMain obligatoire pour les programmes utilisant l&#39;UI Windows." alt="" coords="5,5,77,31"/>
+</map>

@@ -172,63 +172,6 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/winnetwk.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/wnnc.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/virtdisk.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/cderr.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/dde.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/ddeml.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/dlgs.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/lzexpand.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/mmsystem.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/nb30.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpc.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdce.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcdcep.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsi.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnterr.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcasync.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/shellapi.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winperf.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsock.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/_timeval.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/_bsd_types.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/inaddr.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/wincrypt.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/bcrypt.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/ncrypt.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/dpapi.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winefs.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winscard.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypes.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcndr.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcnsip.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/rpcsal.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/ole2.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/objbase.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/combaseapi.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/wtypesbase.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwnbase.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidlbase.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/cguid.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/objidl.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/unknwn.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/urlmon.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleidl.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/servprov.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/msxml.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/oaidl.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/propidl.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/oleauto.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winioctl.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsmcrd.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/winspool.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/prsht.h \
- C:/TDM-GCC-64/x86_64-w64-mingw32/include/commdlg.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/stralign.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
  C:/TDM-GCC-64/x86_64-w64-mingw32/include/winsvc.h \

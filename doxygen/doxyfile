@@ -96,8 +96,8 @@ WARN_LOGFILE            = "C:\src\OpenGL\NeHe_Lesson01-master\doxygen\doxygen.lo
 # configuration options related to the input files
 #---------------------------------------------------------------------------
 INPUT                  = \
-	"..\Lesson01.c" \
-	"..\resource.h" 
+	"..\src\resource.h" \
+	"..\src\Lesson01.c" 
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          =
 RECURSIVE              = NO

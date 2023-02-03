@@ -6,53 +6,53 @@
 
 #IncludeRegexTransform: 
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_bsd_types.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_bsd_types.h
 _mingw.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_cygwin.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_cygwin.h
 stddef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw.h
 _mingw_mac.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_mac.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_mac.h
 _mingw_secapi.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_secapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_secapi.h
 _cygwin.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_cygwin.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_cygwin.h
 vadefs.h
 -
 sdks/_mingw_ddk.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_mac.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_mac.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_secapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_secapi.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_stdarg.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_stdarg.h
 vadefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_unicode.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_mingw_unicode.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_timeval.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/_timeval.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/apiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/apiset.h
 _mingw.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/apisetcconv.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/apisetcconv.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/basetsd.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/basetsd.h
 _mingw.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/bcrypt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/bcrypt.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/bemapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/bemapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -62,11 +62,11 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/cderr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/cderr.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/cguid.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/cguid.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/combaseapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/combaseapi.h
 apiset.h
 -
 apisetcconv.h
@@ -92,9 +92,9 @@ cguid.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/commctrl.rh
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/commctrl.rh
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/commdlg.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/commdlg.h
 winapifamily.h
 -
 _mingw_unicode.h
@@ -106,27 +106,27 @@ pshpack1.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/concurrencysal.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/concurrencysal.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/corecrt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/corecrt.h
 _mingw.h
 -
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/corecrt_wstdlib.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/corecrt_wstdlib.h
 corecrt.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/crtdefs.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/crtdefs.h
 corecrt.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ctype.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ctype.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/datetimeapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/datetimeapi.h
 apiset.h
 -
 apisetcconv.h
@@ -136,17 +136,17 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dde.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dde.h
 windef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dde.rh
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dde.rh
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ddeml.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ddeml.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/debugapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/debugapi.h
 apiset.h
 -
 apisetcconv.h
@@ -156,17 +156,17 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dlgs.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dlgs.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dpapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/dpapi.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/driverspecs.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/driverspecs.h
 specstrings.h
 -
 concurrencysal.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/errhandlingapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/errhandlingapi.h
 apiset.h
 -
 apisetcconv.h
@@ -174,15 +174,15 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/errno.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/errno.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/excpt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/excpt.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fibersapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fibersapi.h
 apiset.h
 -
 apisetcconv.h
@@ -190,7 +190,7 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fileapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fileapi.h
 apiset.h
 -
 apisetcconv.h
@@ -200,15 +200,15 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fltwinerror.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/fltwinerror.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/guiddef.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/guiddef.h
 _mingw.h
 -
 string.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/handleapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/handleapi.h
 apiset.h
 -
 apisetcconv.h
@@ -216,7 +216,7 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/heapapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/heapapi.h
 apiset.h
 -
 apisetcconv.h
@@ -226,15 +226,15 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/imm.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/imm.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/inaddr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/inaddr.h
 _bsd_types.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/interlockedapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/interlockedapi.h
 apiset.h
 -
 apisetcconv.h
@@ -242,7 +242,7 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/intrin.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/intrin.h
 crtdefs.h
 -
 setjmp.h
@@ -274,7 +274,7 @@ pmmintrin.h
 mm3dnow.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ioapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ioapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -284,7 +284,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/jobapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/jobapi.h
 apiset.h
 -
 apisetcconv.h
@@ -294,9 +294,9 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ktmtypes.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ktmtypes.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/libloaderapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/libloaderapi.h
 apiset.h
 -
 apisetcconv.h
@@ -306,23 +306,23 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/limits.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/limits.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/lzexpand.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/lzexpand.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/malloc.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/malloc.h
 crtdefs.h
 -
 mm_malloc.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/mcx.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/mcx.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/memoryapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/memoryapi.h
 apiset.h
 -
 apisetcconv.h
@@ -332,9 +332,9 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/minwinbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/minwinbase.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/minwindef.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/minwindef.h
 _mingw.h
 -
 winapifamily.h
@@ -344,7 +344,7 @@ specstrings.h
 winnt.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/mmsystem.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/mmsystem.h
 _mingw_unicode.h
 -
 pshpack1.h
@@ -352,7 +352,7 @@ pshpack1.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/msxml.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/msxml.h
 rpc.h
 -
 rpcndr.h
@@ -368,7 +368,7 @@ objidl.h
 oaidl.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/namedpipeapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/namedpipeapi.h
 apiset.h
 -
 apisetcconv.h
@@ -378,7 +378,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/namespaceapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/namespaceapi.h
 apiset.h
 -
 apisetcconv.h
@@ -388,15 +388,15 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/nb30.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/nb30.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ncrypt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ncrypt.h
 winapifamily.h
 -
 bcrypt.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oaidl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oaidl.h
 rpc.h
 -
 rpcndr.h
@@ -410,7 +410,7 @@ objidl.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objbase.h
 winapifamily.h
 -
 rpc.h
@@ -430,7 +430,7 @@ propidl.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objidl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objidl.h
 rpc.h
 -
 rpcndr.h
@@ -448,7 +448,7 @@ winapifamily.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objidlbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/objidlbase.h
 rpc.h
 -
 rpcndr.h
@@ -464,11 +464,11 @@ wtypesbase.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ole.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ole.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ole2.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/ole2.h
 winapifamily.h
 -
 pshpack8.h
@@ -484,7 +484,7 @@ oleidl.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oleauto.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oleauto.h
 pshpack8.h
 -
 oaidl.h
@@ -492,7 +492,7 @@ oaidl.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oleidl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/oleidl.h
 rpc.h
 -
 rpcndr.h
@@ -506,9 +506,9 @@ objidl.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processenv.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processenv.h
 apiset.h
 -
 apisetcconv.h
@@ -516,17 +516,7 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processthreadsapi.h
-apiset.h
--
-apisetcconv.h
--
-minwindef.h
--
-minwinbase.h
--
-
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processtopologyapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processthreadsapi.h
 apiset.h
 -
 apisetcconv.h
@@ -536,7 +526,17 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/profileapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/processtopologyapi.h
+apiset.h
+-
+apisetcconv.h
+-
+minwindef.h
+-
+minwinbase.h
+-
+
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/profileapi.h
 apiset.h
 -
 apisetcconv.h
@@ -544,7 +544,7 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/propidl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/propidl.h
 rpc.h
 -
 rpcndr.h
@@ -562,7 +562,7 @@ oaidl.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/prsht.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/prsht.h
 _mingw_unicode.h
 -
 pshpack8.h
@@ -572,15 +572,15 @@ pshpack4.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_fd_types.h
 psdk_inc/_socket_types.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h
 inaddr.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_ip_types.h
 _bsd_types.h
 -
 inaddr.h
@@ -588,29 +588,29 @@ inaddr.h
 _timeval.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_socket_types.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_wsadata.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h
 intrin.h
 -
 psdk_inc/intrin-impl.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack1.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack1.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack8.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack8.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/realtimeapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/realtimeapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -618,9 +618,9 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/reason.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/reason.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpc.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpc.h
 _mingw.h
 -
 windows.h
@@ -644,7 +644,7 @@ rpcasync.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcasync.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcasync.h
 _mingw_unicode.h
 -
 pshpack8.h
@@ -652,7 +652,7 @@ pshpack8.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcdce.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcdce.h
 _mingw_unicode.h
 -
 specstrings.h
@@ -662,11 +662,11 @@ guiddef.h
 rpcdcep.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcdcep.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcdcep.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcndr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcndr.h
 pshpack8.h
 -
 basetsd.h
@@ -678,39 +678,39 @@ rpcsal.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnsi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnsi.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnsip.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnsip.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnterr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcnterr.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcsal.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/rpcsal.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sal.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sal.h
 concurrencysal.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/scarderr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/scarderr.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdkddkver.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdkddkver.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
 stdlib.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/stralign_s.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/stralign_s.h
 stralign.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/string_s.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sec_api/string_s.h
 string.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/securityappcontainer.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/securityappcontainer.h
 apiset.h
 -
 apisetcconv.h
@@ -720,7 +720,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/securitybaseapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/securitybaseapi.h
 apiset.h
 -
 apisetcconv.h
@@ -730,7 +730,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/servprov.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/servprov.h
 rpc.h
 -
 rpcndr.h
@@ -744,11 +744,11 @@ objidl.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/setjmp.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/setjmp.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/shellapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/shellapi.h
 winapifamily.h
 -
 _mingw_unicode.h
@@ -760,21 +760,21 @@ pshpack1.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/specstrings.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/specstrings.h
 sal.h
 -
 driverspecs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stdarg.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stdarg.h
 _mingw_stdarg.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stddef.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stddef.h
 crtdefs.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stdlib.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stdlib.h
 corecrt.h
 -
 corecrt_wstdlib.h
@@ -786,17 +786,17 @@ sec_api/stdlib_s.h
 malloc.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stralign.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stralign.h
 sec_api/stralign_s.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/string.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/string.h
 crtdefs.h
 -
 sec_api/string_s.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stringapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/stringapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -806,7 +806,7 @@ minwindef.h
 winnls.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/synchapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/synchapi.h
 apiset.h
 -
 apisetcconv.h
@@ -816,7 +816,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sysinfoapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/sysinfoapi.h
 apiset.h
 -
 apisetcconv.h
@@ -826,7 +826,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/systemtopologyapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/systemtopologyapi.h
 apiset.h
 -
 apisetcconv.h
@@ -836,7 +836,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/threadpoolapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/threadpoolapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -846,7 +846,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -856,7 +856,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/timezoneapi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/timezoneapi.h
 apiset.h
 -
 apisetcconv.h
@@ -866,11 +866,11 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/tvout.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/tvout.h
 guiddef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/unknwn.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/unknwn.h
 rpc.h
 -
 rpcndr.h
@@ -884,7 +884,7 @@ wtypes.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/unknwnbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/unknwnbase.h
 rpc.h
 -
 rpcndr.h
@@ -898,7 +898,7 @@ wtypesbase.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/urlmon.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/urlmon.h
 rpc.h
 -
 rpcndr.h
@@ -918,7 +918,7 @@ msxml.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/utilapiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/utilapiset.h
 apiset.h
 -
 apisetcconv.h
@@ -926,15 +926,15 @@ apisetcconv.h
 minwindef.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/vadefs.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/vadefs.h
 _mingw.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/virtdisk.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/virtdisk.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winapifamily.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winapifamily.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winbase.h
 _mingw_unicode.h
 -
 apisetcconv.h
@@ -1006,13 +1006,13 @@ winerror.h
 timezoneapi.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wincon.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wincon.h
 _mingw_unicode.h
 -
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wincrypt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wincrypt.h
 _mingw.h
 -
 _mingw_unicode.h
@@ -1030,7 +1030,7 @@ ncrypt.h
 dpapi.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/windef.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/windef.h
 winapifamily.h
 -
 minwindef.h
@@ -1038,7 +1038,7 @@ minwindef.h
 winnt.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/windows.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/windows.h
 _mingw.h
 -
 sdkddkver.h
@@ -1116,13 +1116,13 @@ mcx.h
 imm.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winefs.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winefs.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winerror.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winerror.h
 fltwinerror.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wingdi.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wingdi.h
 winapifamily.h
 -
 _mingw_unicode.h
@@ -1148,7 +1148,7 @@ pshpack4.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winioctl.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winioctl.h
 pshpack1.h
 -
 poppack.h
@@ -1174,7 +1174,7 @@ pshpack1.h
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnetwk.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnetwk.h
 winapifamily.h
 -
 _mingw_unicode.h
@@ -1182,7 +1182,7 @@ _mingw_unicode.h
 wnnc.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnls.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnls.h
 winapifamily.h
 -
 datetimeapi.h
@@ -1192,7 +1192,7 @@ libloaderapi.h
 stringapiset.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnt.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnt.h
 _mingw_unicode.h
 -
 _mingw.h
@@ -1226,25 +1226,25 @@ pshpack4.h
 poppack.h
 -
 pshpack4.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
 pshpack2.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
 poppack.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 pshpack2.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack2.h
 pshpack2.h
 -
 poppack.h
 -
 poppack.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 pshpack8.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack8.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack8.h
 poppack.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 poppack.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 string.h
 -
 pshpack8.h
@@ -1254,19 +1254,19 @@ poppack.h
 ktmtypes.h
 -
 pshpack4.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/pshpack4.h
 poppack.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/poppack.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnt.rh
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winnt.rh
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winperf.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winperf.h
 pshpack8.h
 -
 poppack.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winreg.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winreg.h
 _mingw_unicode.h
 -
 winapifamily.h
@@ -1274,7 +1274,7 @@ winapifamily.h
 reason.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winresrc.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winresrc.h
 winuser.rh
 -
 commctrl.rh
@@ -1288,7 +1288,7 @@ dlgs.h
 winver.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winscard.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winscard.h
 _mingw_unicode.h
 -
 wtypes.h
@@ -1296,15 +1296,15 @@ wtypes.h
 winioctl.h
 -
 winsmcrd.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsmcrd.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsmcrd.h
 SCardErr.h
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/scarderr.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/scarderr.h
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsmcrd.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsmcrd.h
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsock.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsock.h
 windows.h
 -
 _timeval.h
@@ -1328,13 +1328,13 @@ psdk_inc/_xmitfile.h
 psdk_inc/_wsa_errnos.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winspool.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winspool.h
 _mingw_unicode.h
 -
 prsht.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsvc.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winsvc.h
 _mingw.h
 -
 _mingw_unicode.h
@@ -1342,7 +1342,7 @@ _mingw_unicode.h
 apisetcconv.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winuser.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winuser.h
 winapifamily.h
 -
 _mingw_unicode.h
@@ -1364,19 +1364,19 @@ poppack.h
 tvout.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winuser.rh
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winuser.rh
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winver.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/winver.h
 _mingw.h
 -
 _mingw_unicode.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wnnc.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wnnc.h
 winapifamily.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wow64apiset.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wow64apiset.h
 apiset.h
 -
 apisetcconv.h
@@ -1386,7 +1386,7 @@ minwindef.h
 minwinbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wtypes.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wtypes.h
 rpc.h
 -
 rpcndr.h
@@ -1398,7 +1398,7 @@ ole2.h
 wtypesbase.h
 -
 
-C:/Program Files/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wtypesbase.h
+C:/RedPanda-Cpp/MinGW64/x86_64-w64-mingw32/include/wtypesbase.h
 rpc.h
 -
 rpcndr.h

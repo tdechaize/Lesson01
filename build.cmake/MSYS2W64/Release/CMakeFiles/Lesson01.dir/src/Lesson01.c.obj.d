@@ -168,43 +168,8 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  C:/msys64/mingw64/include/wincon.h C:/msys64/mingw64/include/winver.h \
  C:/msys64/mingw64/include/winreg.h C:/msys64/mingw64/include/reason.h \
  C:/msys64/mingw64/include/winnetwk.h C:/msys64/mingw64/include/wnnc.h \
- C:/msys64/mingw64/include/virtdisk.h C:/msys64/mingw64/include/cderr.h \
- C:/msys64/mingw64/include/dde.h C:/msys64/mingw64/include/ddeml.h \
- C:/msys64/mingw64/include/dlgs.h C:/msys64/mingw64/include/lzexpand.h \
- C:/msys64/mingw64/include/mmsystem.h C:/msys64/mingw64/include/nb30.h \
- C:/msys64/mingw64/include/rpc.h C:/msys64/mingw64/include/rpcdce.h \
- C:/msys64/mingw64/include/rpcdcep.h C:/msys64/mingw64/include/rpcnsi.h \
- C:/msys64/mingw64/include/rpcnterr.h \
- C:/msys64/mingw64/include/rpcasync.h \
- C:/msys64/mingw64/include/shellapi.h C:/msys64/mingw64/include/winperf.h \
- C:/msys64/mingw64/include/winsock.h C:/msys64/mingw64/include/_timeval.h \
- C:/msys64/mingw64/include/_bsd_types.h \
- C:/msys64/mingw64/include/inaddr.h \
- C:/msys64/mingw64/include/psdk_inc/_socket_types.h \
- C:/msys64/mingw64/include/psdk_inc/_fd_types.h \
- C:/msys64/mingw64/include/psdk_inc/_ip_types.h \
- C:/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
- C:/msys64/mingw64/include/psdk_inc/_wsadata.h \
- C:/msys64/mingw64/include/psdk_inc/_xmitfile.h \
- C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
- C:/msys64/mingw64/include/wincrypt.h C:/msys64/mingw64/include/bcrypt.h \
- C:/msys64/mingw64/include/ncrypt.h C:/msys64/mingw64/include/dpapi.h \
- C:/msys64/mingw64/include/winefs.h C:/msys64/mingw64/include/winscard.h \
- C:/msys64/mingw64/include/wtypes.h C:/msys64/mingw64/include/rpcndr.h \
- C:/msys64/mingw64/include/rpcnsip.h C:/msys64/mingw64/include/rpcsal.h \
- C:/msys64/mingw64/include/ole2.h C:/msys64/mingw64/include/objbase.h \
- C:/msys64/mingw64/include/combaseapi.h \
- C:/msys64/mingw64/include/wtypesbase.h \
- C:/msys64/mingw64/include/unknwnbase.h \
- C:/msys64/mingw64/include/objidlbase.h C:/msys64/mingw64/include/cguid.h \
- C:/msys64/mingw64/include/objidl.h C:/msys64/mingw64/include/unknwn.h \
- C:/msys64/mingw64/include/urlmon.h C:/msys64/mingw64/include/oleidl.h \
- C:/msys64/mingw64/include/servprov.h C:/msys64/mingw64/include/msxml.h \
- C:/msys64/mingw64/include/oaidl.h C:/msys64/mingw64/include/propidl.h \
- C:/msys64/mingw64/include/oleauto.h C:/msys64/mingw64/include/winioctl.h \
- C:/msys64/mingw64/include/winsmcrd.h \
- C:/msys64/mingw64/include/winspool.h C:/msys64/mingw64/include/prsht.h \
- C:/msys64/mingw64/include/commdlg.h C:/msys64/mingw64/include/stralign.h \
+ C:/msys64/mingw64/include/virtdisk.h \
+ C:/msys64/mingw64/include/stralign.h \
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/gl/gl.h \

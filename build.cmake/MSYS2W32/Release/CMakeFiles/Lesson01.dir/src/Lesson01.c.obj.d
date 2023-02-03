@@ -23,6 +23,15 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  C:/msys64/mingw32/include/basetsd.h C:/msys64/mingw32/include/guiddef.h \
  C:/msys64/mingw32/include/string.h \
  C:/msys64/mingw32/include/sec_api/string_s.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/emmintrin.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/xmmintrin.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/mmintrin.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/mm_malloc.h \
+ C:/msys64/mingw32/include/stdlib.h \
+ C:/msys64/mingw32/include/corecrt_wstdlib.h \
+ C:/msys64/mingw32/include/limits.h \
+ C:/msys64/mingw32/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw32/include/malloc.h C:/msys64/mingw32/include/errno.h \
  C:/msys64/mingw32/include/pshpack4.h C:/msys64/mingw32/include/poppack.h \
  C:/msys64/mingw32/include/pshpack4.h \
  C:/msys64/mingw32/include/pshpack2.h C:/msys64/mingw32/include/poppack.h \
@@ -70,49 +79,8 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  C:/msys64/mingw32/include/wincon.h C:/msys64/mingw32/include/winver.h \
  C:/msys64/mingw32/include/winreg.h C:/msys64/mingw32/include/reason.h \
  C:/msys64/mingw32/include/winnetwk.h C:/msys64/mingw32/include/wnnc.h \
- C:/msys64/mingw32/include/virtdisk.h C:/msys64/mingw32/include/cderr.h \
- C:/msys64/mingw32/include/dde.h C:/msys64/mingw32/include/ddeml.h \
- C:/msys64/mingw32/include/dlgs.h C:/msys64/mingw32/include/lzexpand.h \
- C:/msys64/mingw32/include/mmsystem.h C:/msys64/mingw32/include/nb30.h \
- C:/msys64/mingw32/include/rpc.h C:/msys64/mingw32/include/rpcdce.h \
- C:/msys64/mingw32/include/rpcdcep.h C:/msys64/mingw32/include/rpcnsi.h \
- C:/msys64/mingw32/include/rpcnterr.h \
- C:/msys64/mingw32/include/rpcasync.h \
- C:/msys64/mingw32/include/shellapi.h C:/msys64/mingw32/include/winperf.h \
- C:/msys64/mingw32/include/winsock.h C:/msys64/mingw32/include/_timeval.h \
- C:/msys64/mingw32/include/_bsd_types.h \
- C:/msys64/mingw32/include/inaddr.h \
- C:/msys64/mingw32/include/psdk_inc/_socket_types.h \
- C:/msys64/mingw32/include/psdk_inc/_fd_types.h \
- C:/msys64/mingw32/include/psdk_inc/_ip_types.h \
- C:/msys64/mingw32/include/psdk_inc/_ip_mreq1.h \
- C:/msys64/mingw32/include/psdk_inc/_wsadata.h \
- C:/msys64/mingw32/include/psdk_inc/_xmitfile.h \
- C:/msys64/mingw32/include/psdk_inc/_wsa_errnos.h \
- C:/msys64/mingw32/include/wincrypt.h C:/msys64/mingw32/include/bcrypt.h \
- C:/msys64/mingw32/include/ncrypt.h C:/msys64/mingw32/include/dpapi.h \
- C:/msys64/mingw32/include/winefs.h C:/msys64/mingw32/include/winscard.h \
- C:/msys64/mingw32/include/wtypes.h C:/msys64/mingw32/include/rpcndr.h \
- C:/msys64/mingw32/include/rpcnsip.h C:/msys64/mingw32/include/rpcsal.h \
- C:/msys64/mingw32/include/ole2.h C:/msys64/mingw32/include/objbase.h \
- C:/msys64/mingw32/include/combaseapi.h \
- C:/msys64/mingw32/include/stdlib.h \
- C:/msys64/mingw32/include/corecrt_wstdlib.h \
- C:/msys64/mingw32/include/limits.h \
- C:/msys64/mingw32/include/sec_api/stdlib_s.h \
- C:/msys64/mingw32/include/malloc.h \
- C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/12.2.0/include/mm_malloc.h \
- C:/msys64/mingw32/include/errno.h C:/msys64/mingw32/include/wtypesbase.h \
- C:/msys64/mingw32/include/unknwnbase.h \
- C:/msys64/mingw32/include/objidlbase.h C:/msys64/mingw32/include/cguid.h \
- C:/msys64/mingw32/include/objidl.h C:/msys64/mingw32/include/unknwn.h \
- C:/msys64/mingw32/include/urlmon.h C:/msys64/mingw32/include/oleidl.h \
- C:/msys64/mingw32/include/servprov.h C:/msys64/mingw32/include/msxml.h \
- C:/msys64/mingw32/include/oaidl.h C:/msys64/mingw32/include/propidl.h \
- C:/msys64/mingw32/include/oleauto.h C:/msys64/mingw32/include/winioctl.h \
- C:/msys64/mingw32/include/winsmcrd.h \
- C:/msys64/mingw32/include/winspool.h C:/msys64/mingw32/include/prsht.h \
- C:/msys64/mingw32/include/commdlg.h C:/msys64/mingw32/include/stralign.h \
+ C:/msys64/mingw32/include/virtdisk.h \
+ C:/msys64/mingw32/include/stralign.h \
  C:/msys64/mingw32/include/sec_api/stralign_s.h \
  C:/msys64/mingw32/include/winsvc.h C:/msys64/mingw32/include/mcx.h \
  C:/msys64/mingw32/include/imm.h C:/msys64/mingw32/include/gl/gl.h \

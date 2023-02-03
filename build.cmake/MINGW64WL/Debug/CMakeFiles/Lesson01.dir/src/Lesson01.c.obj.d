@@ -187,63 +187,6 @@ CMakeFiles/Lesson01.dir/src/Lesson01.c.obj: \
  c:\mingw64\x86_64-w64-mingw32\include\winnetwk.h \
  c:\mingw64\x86_64-w64-mingw32\include\wnnc.h \
  c:\mingw64\x86_64-w64-mingw32\include\virtdisk.h \
- c:\mingw64\x86_64-w64-mingw32\include\cderr.h \
- c:\mingw64\x86_64-w64-mingw32\include\dde.h \
- c:\mingw64\x86_64-w64-mingw32\include\ddeml.h \
- c:\mingw64\x86_64-w64-mingw32\include\dlgs.h \
- c:\mingw64\x86_64-w64-mingw32\include\lzexpand.h \
- c:\mingw64\x86_64-w64-mingw32\include\mmsystem.h \
- c:\mingw64\x86_64-w64-mingw32\include\nb30.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpc.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcdce.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcdcep.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcnsi.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcnterr.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcasync.h \
- c:\mingw64\x86_64-w64-mingw32\include\shellapi.h \
- c:\mingw64\x86_64-w64-mingw32\include\winperf.h \
- c:\mingw64\x86_64-w64-mingw32\include\winsock.h \
- c:\mingw64\x86_64-w64-mingw32\include\_timeval.h \
- c:\mingw64\x86_64-w64-mingw32\include\_bsd_types.h \
- c:\mingw64\x86_64-w64-mingw32\include\inaddr.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_socket_types.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_fd_types.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_ip_types.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_ip_mreq1.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_wsadata.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_xmitfile.h \
- c:\mingw64\x86_64-w64-mingw32\include\psdk_inc\_wsa_errnos.h \
- c:\mingw64\x86_64-w64-mingw32\include\wincrypt.h \
- c:\mingw64\x86_64-w64-mingw32\include\bcrypt.h \
- c:\mingw64\x86_64-w64-mingw32\include\ncrypt.h \
- c:\mingw64\x86_64-w64-mingw32\include\dpapi.h \
- c:\mingw64\x86_64-w64-mingw32\include\winefs.h \
- c:\mingw64\x86_64-w64-mingw32\include\winscard.h \
- c:\mingw64\x86_64-w64-mingw32\include\wtypes.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcndr.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcnsip.h \
- c:\mingw64\x86_64-w64-mingw32\include\rpcsal.h \
- c:\mingw64\x86_64-w64-mingw32\include\ole2.h \
- c:\mingw64\x86_64-w64-mingw32\include\objbase.h \
- c:\mingw64\x86_64-w64-mingw32\include\combaseapi.h \
- c:\mingw64\x86_64-w64-mingw32\include\wtypesbase.h \
- c:\mingw64\x86_64-w64-mingw32\include\unknwnbase.h \
- c:\mingw64\x86_64-w64-mingw32\include\objidlbase.h \
- c:\mingw64\x86_64-w64-mingw32\include\cguid.h \
- c:\mingw64\x86_64-w64-mingw32\include\objidl.h \
- c:\mingw64\x86_64-w64-mingw32\include\unknwn.h \
- c:\mingw64\x86_64-w64-mingw32\include\urlmon.h \
- c:\mingw64\x86_64-w64-mingw32\include\oleidl.h \
- c:\mingw64\x86_64-w64-mingw32\include\servprov.h \
- c:\mingw64\x86_64-w64-mingw32\include\msxml.h \
- c:\mingw64\x86_64-w64-mingw32\include\oaidl.h \
- c:\mingw64\x86_64-w64-mingw32\include\propidl.h \
- c:\mingw64\x86_64-w64-mingw32\include\oleauto.h \
- c:\mingw64\x86_64-w64-mingw32\include\winioctl.h \
- c:\mingw64\x86_64-w64-mingw32\include\winsmcrd.h \
- c:\mingw64\x86_64-w64-mingw32\include\winspool.h \
- c:\mingw64\x86_64-w64-mingw32\include\prsht.h \
- c:\mingw64\x86_64-w64-mingw32\include\commdlg.h \
  c:\mingw64\x86_64-w64-mingw32\include\stralign.h \
  c:\mingw64\x86_64-w64-mingw32\include\sec_api\stralign_s.h \
  c:\mingw64\x86_64-w64-mingw32\include\winsvc.h \

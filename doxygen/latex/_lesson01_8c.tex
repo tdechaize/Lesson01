@@ -1,145 +1,202 @@
-\hypertarget{_lesson01_8c}{\section{RÃ©fÃ©rence du fichier Lesson01.\-c}
-\label{_lesson01_8c}\index{Lesson01.\-c@{Lesson01.\-c}}
-}
+\doxysection{Lesson01.\+c File Reference}
+\label{_lesson01_8c}\index{Lesson01.c@{Lesson01.c}}
 
 
-Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec Open\-G\-L.  
+Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec Open\+GL.  
 
 
-{\ttfamily \#include $<$windows.\-h$>$}\\*
-{\ttfamily \#include $<$gl/gl.\-h$>$}\\*
-{\ttfamily \#include \char`\"{}resource.\-h\char`\"{}}\\*
-Graphe des dÃ©pendances par inclusion de Lesson01.\-c\-:
-\subsection*{Fonctions}
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$gl/gl.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}resource.\+h\char`\"{}}\newline
+Include dependency graph for Lesson01.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{_lesson01_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Macros}
 \begin{DoxyCompactItemize}
 \item 
-L\-R\-E\-S\-U\-L\-T C\-A\-L\-L\-B\-A\-C\-K \hyperlink{_lesson01_8c_af7de05620634745d22ea79adeef2514f}{Window\-Proc} (H\-W\-N\-D hwnd, U\-I\-N\-T u\-Msg, W\-P\-A\-R\-A\-M w\-Param, L\-P\-A\-R\-A\-M l\-Param)
-\begin{DoxyCompactList}\small\item\em Fonction C\-A\-L\-L\-B\-A\-C\-K de traitement des messages Windows. \end{DoxyCompactList}\item 
-void \hyperlink{_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4}{Enable\-Open\-G\-L} (H\-W\-N\-D hwnd, H\-D\-C $\ast$h\-D\-C, H\-G\-L\-R\-C $\ast$h\-R\-C)
-\begin{DoxyCompactList}\small\item\em Fonction Enable\-Open\-G\-L permettant la configuration d'Open\-G\-L pour la fenêtre principale. \end{DoxyCompactList}\item 
-void \hyperlink{_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a}{Disable\-Open\-G\-L} (H\-W\-N\-D hwnd, H\-D\-C h\-D\-C, H\-G\-L\-R\-C h\-R\-C)
-\begin{DoxyCompactList}\small\item\em Fonction Disable\-Open\-G\-L permettant la dé-\/configuration d'Open\-G\-L pour la fenêtre principale. \end{DoxyCompactList}\item 
-\hypertarget{_lesson01_8c_a661c2abc03926acfaeb93b4ae7db4943}{int W\-I\-N\-A\-P\-I {\bfseries Win\-Main} (H\-I\-N\-S\-T\-A\-N\-C\-E h\-Instance, H\-I\-N\-S\-T\-A\-N\-C\-E h\-Prev\-Instance, L\-P\-S\-T\-R lp\-Cmd\-Line, int n\-Cmd\-Show)}\label{_lesson01_8c_a661c2abc03926acfaeb93b4ae7db4943}
-
+\#define \textbf{ WIN32\+\_\+\+LEAN\+\_\+\+AND\+\_\+\+MEAN}
 \end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+LRESULT CALLBACK \textbf{ Window\+Proc} (HWND hwnd, UINT u\+Msg, WPARAM w\+Param, LPARAM l\+Param)
+\begin{DoxyCompactList}\small\item\em Fonction CALLBACK de traitement des messages Windows. \end{DoxyCompactList}\item 
+void \textbf{ Enable\+Open\+GL} (HWND hwnd, HDC $\ast$h\+DC, HGLRC $\ast$h\+RC)
+\begin{DoxyCompactList}\small\item\em Fonction Enable\+Open\+GL permettant la configuration d\textquotesingle{}Open\+GL pour la fenêtre principale. \end{DoxyCompactList}\item 
+void \textbf{ Disable\+Open\+GL} (HWND hwnd, HDC h\+DC, HGLRC h\+RC)
+\begin{DoxyCompactList}\small\item\em Fonction Disable\+Open\+GL permettant la dé-\/configuration d\textquotesingle{}Open\+GL pour la fenêtre principale. \end{DoxyCompactList}\item 
+int WINAPI \textbf{ Win\+Main} (HINSTANCE h\+Instance, HINSTANCE h\+Prev\+Instance, LPSTR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\begin{DoxyCompactList}\small\item\em Fonction Win\+Main obligatoire pour les programmes utilisant l\textquotesingle{}UI Windows. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Description dÃ©taillÃ©e}
-Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec Open\-G\-L. \begin{DoxyVerb}      Comments manageable by Doxygen
-\end{DoxyVerb}
+\doxysubsection{Detailed Description}
+Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec Open\+GL. 
 
+Comments manageable by Doxygen
 
-Modified smoothly by Thierry D\-E\-C\-H\-A\-I\-Z\-E
+Modified smoothly by Thierry DECHAIZE
 
-Paradigm \-: obtain one source (only one !) compatible for multiple free C Compilers and provide for all users an development environment on Windows (64 bits compatible), the great Code\-::\-Blocks manager (version 12.\-11), and don't use glaux.\-lib or glaux.\-dll. \begin{DoxyVerb}a) Mingw 32 and 64 bits : downloadable http://sourceforge.net/projects/mingw/
-\end{DoxyVerb}
- b) Mingw 32 and 64 bits \-: included in packages Orwell in replacement of old Dev-\/\-Cpp \href{http://sourceforge.net/projects/orwelldevcpp/}{\tt http\-://sourceforge.\-net/projects/orwelldevcpp/} (two installations in different place) c) Mingw 32 \-: included in package Code\-::\-Blocks (version 12.\-11) \href{http://sourceforge.net/projects/codeblocks/files/Binaries/12.11/Windows/}{\tt http\-://sourceforge.\-net/projects/codeblocks/files/\-Binaries/12.\-11/\-Windows/} d) Borland C \-: downloadable \href{http://edn.embarcadero.com/article/20633}{\tt http\-://edn.\-embarcadero.\-com/article/20633} e) Digital Mars Compiler C \-: version 8.\-56 downloadable \href{http://www.digitalmars.com}{\tt http\-://www.\-digitalmars.\-com} f) Open\-Watcom \-: version 1.\-9 downloadable \href{http://openwatcom.mirror.fr/}{\tt http\-://openwatcom.\-mirror.\-fr/} g) Lcc and Lcc64 \-: downloadable \href{http://www.cs.virginia.edu/~lcc-win32/}{\tt http\-://www.\-cs.\-virginia.\-edu/$\sim$lcc-\/win32/} h) Cygwin \-: downloadable \href{http://www.cygwin.com/install.html}{\tt http\-://www.\-cygwin.\-com/install.\-html} (setup.\-exe) i) and Visual Studio 2005 \-: express edition for free (my version 2005 is full not express) \href{http://www.microsoft.com/france/visual-studio/essayez/express.aspx}{\tt http\-://www.\-microsoft.\-com/france/visual-\/studio/essayez/express.\-aspx}
+Paradigm \+: obtain one source (only one !) compatible for multiple free C Compilers and provide for all users an development environment on Windows (64 bits compatible), the great Code\+::\+Blocks manager (version 20.\+03), and don\textquotesingle{}t use glaux.\+lib or glaux.\+dll.
 
-Important remark \-: All install in C partition, \char`\"{}no space\char`\"{} and \char`\"{}no special characters\char`\"{} in the name of directories (it's reason to not install in C\-: Files (x86) ... by default proposed on windows 64 bits)
+a) Mingw 32 bits, version officielle gcc 9.\+2.\+0 (very old !) \+: downloadable on {\texttt{ http\+://sourceforge.\+net/projects/mingw/}} (official) b) Mingw 64 bits included in new IDE Red Panda Dev-\/\+Cpp, version gcc 12.\+2.\+0 \+: donwloadable on {\texttt{ https\+://sourceforge.\+net/projects/redpanda-\/cpp/files/}} c) Mingw 64 bits included in package Code\+::\+Blocks (version 20.\+03 with mingw), version gcc 11.\+2.\+0 \+: downloadable on {\texttt{ http\+://sourceforge.\+net/projects/codeblocks/files/\+Binaries/20.\+03/\+Windows/}} d) Mingw 32 and 64 bits packagés, version gcc 11.\+2.\+0 \+: downloadable on {\texttt{ https\+://winlibs.\+com/}} (and CLANG included in, 32 and 64 bits), two kits \+:
+\begin{DoxyItemize}
+\item winlibs-\/i686-\/posix-\/dwarf-\/gcc-\/12.\+2.\+0-\/llvm-\/15.\+0.\+7-\/mingw-\/w64ucrt-\/10.\+0.\+0-\/r4.\+7z (32 bits)
+\item winlibs-\/x86\+\_\+64-\/posix-\/seh-\/gcc-\/12.\+2.\+0-\/llvm-\/15.\+0.\+7-\/mingw-\/w64ucrt-\/10.\+0.\+0-\/r4.\+7z (64 bits) e) Cygwin64, 32 et 64 bits, version gcc 11.\+3.\+0 \+: downloadable on {\texttt{ http\+://www.\+cygwin.\+com/install.\+html}} (tool for install \+: setup-\/x86\+\_\+64.\+exe) f) TDM GCC, 32 et 64 bits, version 10.\+3.\+0 \+: downloadable on {\texttt{ http\+://sourceforge.\+net/projects/\+TDM-\/\+GCC}} g) MSYS2 environnement MINGW32 and MINGW64, 32 et 64 bits, version de 2022 (msys2-\/x86\+\_\+64-\/20230127.\+exe), version gcc 12.\+2.\+0 \+: downloadable on {\texttt{ https\+://repo.\+msys2.\+org/distrib/x86\+\_\+64/msys2-\/x86\+\_\+64-\/20230127.\+exe}} h) Visual Studio 2022, 32 et 64 bits, community edition for free \+: downloadable on {\texttt{ https\+://visualstudio.\+microsoft.\+com/fr/thank-\/you-\/downloading-\/visual-\/studio/?sku=\+Community\&rel=17}} i) Borland C/\+C++ 32 bits, version 5.\+5 \+: downloadable on {\texttt{ https\+://developerinsider.\+co/download-\/and-\/install-\/borland-\/c-\/compiler-\/on-\/windows-\/10/}} j) Digital Mars Compiler C 32 bits version 8.\+57 \+: downloadable on {\texttt{ http\+://www.\+digitalmars.\+com}} (the more old compiler, the more bugged, dead branch !) k) Open\+Watcom 32 et 64 bits, version 2.\+0 \+: downloadable on {\texttt{ http\+://openwatcom.\+mirror.\+fr/}} l) Lcc and Lcc64, 32 et 64 bits\+: downloadable {\texttt{ http\+://www.\+cs.\+virginia.\+edu/$\sim$lcc-\/win32/}} m) PELLES C, 32 et 64 bits, version 11.\+0 \+: downloadable on {\texttt{ http\+://www.\+smorgasbordet.\+com/pellesc/}} o) CLANG, adossé aux environnements MINGW64 et MINGW32, version 15.\+0.\+7 (version gcc 12.\+0.\+0) \+: downloadable on {\texttt{ https\+://winlibs.\+com/}} p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 15.\+0.\+7 \+: downloadable on {\texttt{ https\+://releases.\+llvm.\+org/download.\+html}} q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 15.\+0.\+7 (version gcc 12.\+2.\+0) \+: downloadable on {\texttt{ https\+://repo.\+msys2.\+org/distrib/x86\+\_\+64/msys2-\/x86\+\_\+64-\/20220118.\+exe}} r) CLANG de la version CYGWIN, adossé aux environnements MINGW64 et MINGW32, version 8.\+0.\+0 (version gcc 11.\+3.\+0) \+: downloadable {\texttt{ http\+://www.\+cygwin.\+com/install.\+html}} (tool for install \+: setup-\/x86\+\_\+64.\+exe)
+\end{DoxyItemize}
 
-Add resource file end resource header for restitute version + icon Open\-G\-L.\-ico for fun because versionning is important, same for freeware \-:-\/) !
+TDE -\/$>$ Add resource file end resource header for restitute version + icon Open\+GL.\+ico for fun because versionning is important, same for freeware \+:-\/) !
 
-Date \-: 2013/05/11
+Date \+: 2023/02/03
 
-\begin{DoxyAuthor}{Auteur}
-Jeff Molofee ( Ne\-He ) originely, adapted by Thierry Dechaize 
+\begin{DoxyAuthor}{Author}
+Jeff Molofee ( Ne\+He ) originely, adapted by Thierry Dechaize 
 \end{DoxyAuthor}
 \begin{DoxyVersion}{Version}
-1.\-0.\-1.\-2 
+2.\+0.\+1.\+0 
 \end{DoxyVersion}
 \begin{DoxyDate}{Date}
-12 May 2013
+3 février 2023
 \end{DoxyDate}
-Ce programme ne gére qu'un seul événement \-: le clic sur le bouton \char`\"{}\-Fermé\char`\"{} de la fenêtre. 
+Ce programme ne gére que deux événements \+: le clic sur le bouton \char`\"{}\+Fermé\char`\"{} de la fenêtre ou la sortie par la touche ESC. 
 
-\subsection{Documentation des fonctions}
-\hypertarget{_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a}{\index{Lesson01.\-c@{Lesson01.\-c}!Disable\-Open\-G\-L@{Disable\-Open\-G\-L}}
-\index{Disable\-Open\-G\-L@{Disable\-Open\-G\-L}!Lesson01.c@{Lesson01.\-c}}
-\subsubsection[{Disable\-Open\-G\-L}]{\setlength{\rightskip}{0pt plus 5cm}void Disable\-Open\-G\-L (
-\begin{DoxyParamCaption}
-\item[{H\-W\-N\-D}]{hwnd, }
-\item[{H\-D\-C}]{h\-D\-C, }
-\item[{H\-G\-L\-R\-C}]{h\-R\-C}
-\end{DoxyParamCaption}
-)}}\label{_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a}
+\doxysubsection{Macro Definition Documentation}
+\mbox{\label{_lesson01_8c_ac7bef5d85e3dcd73eef56ad39ffc84a9}} 
+\index{Lesson01.c@{Lesson01.c}!WIN32\_LEAN\_AND\_MEAN@{WIN32\_LEAN\_AND\_MEAN}}
+\index{WIN32\_LEAN\_AND\_MEAN@{WIN32\_LEAN\_AND\_MEAN}!Lesson01.c@{Lesson01.c}}
+\doxysubsubsection{WIN32\_LEAN\_AND\_MEAN}
+{\footnotesize\ttfamily \#define WIN32\+\_\+\+LEAN\+\_\+\+AND\+\_\+\+MEAN}
 
 
-Fonction Disable\-Open\-G\-L permettant la dé-\/configuration d'Open\-G\-L pour la fenêtre principale. 
 
-\begin{DoxyVerb}      Comments manageable by Doxygen
-\end{DoxyVerb}
+\doxysubsection{Function Documentation}
+\mbox{\label{_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a}} 
+\index{Lesson01.c@{Lesson01.c}!DisableOpenGL@{DisableOpenGL}}
+\index{DisableOpenGL@{DisableOpenGL}!Lesson01.c@{Lesson01.c}}
+\doxysubsubsection{DisableOpenGL()}
+{\footnotesize\ttfamily void Disable\+Open\+GL (\begin{DoxyParamCaption}\item[{HWND}]{hwnd,  }\item[{HDC}]{h\+DC,  }\item[{HGLRC}]{h\+RC }\end{DoxyParamCaption})}
 
 
-On libère les différents contextes \-: Device Context et Resource Context. 
-\begin{DoxyParams}{ParamÃ¨tres}
-{\em hwnd} & L'header de la fenêtre principale. \\
+
+Fonction Disable\+Open\+GL permettant la dé-\/configuration d\textquotesingle{}Open\+GL pour la fenêtre principale. 
+
+Comments manageable by Doxygen
+
+On libère les différents contextes \+: Device Context et Resource Context. 
+\begin{DoxyParams}{Parameters}
+{\em hwnd} & L\textquotesingle{}header de la fenêtre principale. \\
 \hline
-{\em h\-D\-C} & L'header du Device Context. \\
+{\em h\+DC} & L\textquotesingle{}header du Device Context. \\
 \hline
-{\em h\-R\-C} & L'header du Resource Context sous Open\-G\-L. \\
+{\em h\+RC} & L\textquotesingle{}header du Resource Context sous Open\+GL. \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Renvoie}
-Aucun Void. 
-\end{DoxyReturn}
-\hypertarget{_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4}{\index{Lesson01.\-c@{Lesson01.\-c}!Enable\-Open\-G\-L@{Enable\-Open\-G\-L}}
-\index{Enable\-Open\-G\-L@{Enable\-Open\-G\-L}!Lesson01.c@{Lesson01.\-c}}
-\subsubsection[{Enable\-Open\-G\-L}]{\setlength{\rightskip}{0pt plus 5cm}void Enable\-Open\-G\-L (
-\begin{DoxyParamCaption}
-\item[{H\-W\-N\-D}]{hwnd, }
-\item[{H\-D\-C $\ast$}]{h\-D\-C, }
-\item[{H\-G\-L\-R\-C $\ast$}]{h\-R\-C}
-\end{DoxyParamCaption}
-)}}\label{_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4}} 
+\index{Lesson01.c@{Lesson01.c}!EnableOpenGL@{EnableOpenGL}}
+\index{EnableOpenGL@{EnableOpenGL}!Lesson01.c@{Lesson01.c}}
+\doxysubsubsection{EnableOpenGL()}
+{\footnotesize\ttfamily void Enable\+Open\+GL (\begin{DoxyParamCaption}\item[{HWND}]{hwnd,  }\item[{HDC $\ast$}]{h\+DC,  }\item[{HGLRC $\ast$}]{h\+RC }\end{DoxyParamCaption})}
 
 
-Fonction Enable\-Open\-G\-L permettant la configuration d'Open\-G\-L pour la fenêtre principale. 
 
-\begin{DoxyVerb}      Comments manageable by Doxygen
-\end{DoxyVerb}
+Fonction Enable\+Open\+GL permettant la configuration d\textquotesingle{}Open\+GL pour la fenêtre principale. 
 
+Comments manageable by Doxygen
 
 Ce qui est important est le descripteur du format du pixel utilisé. 
-\begin{DoxyParams}{ParamÃ¨tres}
-{\em hwnd} & L'header de la fenêtre principale. \\
+\begin{DoxyParams}{Parameters}
+{\em hwnd} & L\textquotesingle{}header de la fenêtre principale. \\
 \hline
-{\em h\-D\-C} & L'header du Device Context. \\
+{\em h\+DC} & L\textquotesingle{}header du Device Context. \\
 \hline
-{\em h\-R\-C} & L'header du Resource Context sous Open\-G\-L. \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Renvoie}
-Aucun Void. 
-\end{DoxyReturn}
-\hypertarget{_lesson01_8c_af7de05620634745d22ea79adeef2514f}{\index{Lesson01.\-c@{Lesson01.\-c}!Window\-Proc@{Window\-Proc}}
-\index{Window\-Proc@{Window\-Proc}!Lesson01.c@{Lesson01.\-c}}
-\subsubsection[{Window\-Proc}]{\setlength{\rightskip}{0pt plus 5cm}L\-R\-E\-S\-U\-L\-T C\-A\-L\-L\-B\-A\-C\-K Window\-Proc (
-\begin{DoxyParamCaption}
-\item[{H\-W\-N\-D}]{hwnd, }
-\item[{U\-I\-N\-T}]{u\-Msg, }
-\item[{W\-P\-A\-R\-A\-M}]{w\-Param, }
-\item[{L\-P\-A\-R\-A\-M}]{l\-Param}
-\end{DoxyParamCaption}
-)}}\label{_lesson01_8c_af7de05620634745d22ea79adeef2514f}
-
-
-Fonction C\-A\-L\-L\-B\-A\-C\-K de traitement des messages Windows. 
-
-\begin{DoxyVerb}      Comments manageable by Doxygen
-\end{DoxyVerb}
-
-
-La distance entre les {\itshape point1} et {\itshape point2} est calculée par l'intermédiaire des coordonnées des points. (cf \#\-Point) 
-\begin{DoxyParams}{ParamÃ¨tres}
-{\em H\-W\-N\-D} & L'header de la fenêtre principale. \\
-\hline
-{\em U\-I\-N\-T} & Un entier non signé. \\
-\hline
-{\em W\-P\-A\-R\-A\-M} & Les paramétres en entrée. \\
-\hline
-{\em L\-P\-A\-R\-A\-M} & Autres paramétres en entrée. \\
+{\em h\+RC} & L\textquotesingle{}header du Resource Context sous Open\+GL. \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Renvoie}
-Un {\itshape L\-R\-E\-S\-U\-L\-T} donnant le status du traitement du message. 
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{_lesson01_8c_af7de05620634745d22ea79adeef2514f}} 
+\index{Lesson01.c@{Lesson01.c}!WindowProc@{WindowProc}}
+\index{WindowProc@{WindowProc}!Lesson01.c@{Lesson01.c}}
+\doxysubsubsection{WindowProc()}
+{\footnotesize\ttfamily LRESULT CALLBACK Window\+Proc (\begin{DoxyParamCaption}\item[{HWND}]{hwnd,  }\item[{UINT}]{u\+Msg,  }\item[{WPARAM}]{w\+Param,  }\item[{LPARAM}]{l\+Param }\end{DoxyParamCaption})}
+
+
+
+Fonction CALLBACK de traitement des messages Windows. 
+
+Comments manageable by Doxygen
+
+Traitement de la boucle infinie des messages Windows 
+\begin{DoxyParams}{Parameters}
+{\em hwnd} & L\textquotesingle{}header de la fenêtre principale. \\
+\hline
+{\em u\+Msg} & Un entier non signé. \\
+\hline
+{\em w\+Param} & Les paramétres en entrée. \\
+\hline
+{\em l\+Param} & Autres paramétres en entrée. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+LRESULT Un LRESULT donnant le status du traitement du message. 
 \end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=241pt]{_lesson01_8c_af7de05620634745d22ea79adeef2514f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\label{_lesson01_8c_a661c2abc03926acfaeb93b4ae7db4943}} 
+\index{Lesson01.c@{Lesson01.c}!WinMain@{WinMain}}
+\index{WinMain@{WinMain}!Lesson01.c@{Lesson01.c}}
+\doxysubsubsection{WinMain()}
+{\footnotesize\ttfamily int WINAPI Win\+Main (\begin{DoxyParamCaption}\item[{HINSTANCE}]{h\+Instance,  }\item[{HINSTANCE}]{h\+Prev\+Instance,  }\item[{LPSTR}]{lp\+Cmd\+Line,  }\item[{int}]{n\+Cmd\+Show }\end{DoxyParamCaption})}
+
+
+
+Fonction Win\+Main obligatoire pour les programmes utilisant l\textquotesingle{}UI Windows. 
+
+Comments manageable by Doxygen
+
+Creation de la fenetre principale 
+\begin{DoxyParams}{Parameters}
+{\em h\+Instance} & L\textquotesingle{}header de l\textquotesingle{}instance de la fenêtre principale. \\
+\hline
+{\em h\+Prev\+Instance} & L\textquotesingle{}header de l\textquotesingle{}instance de la fenêtre précédente (si besoin). \\
+\hline
+{\em lp\+Cmd\+Line} & Un pointeur sur la ligne de cammande. \\
+\hline
+{\em n\+Cmd\+Show} & Un indicateur. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Le status du lancement et de la creation de la fenêtre (ok ou non). 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{_lesson01_8c_a661c2abc03926acfaeb93b4ae7db4943_cgraph}
+\end{center}
+\end{figure}

@@ -13,11 +13,11 @@ set(CMAKE_DEPENDS_CHECK_RC
 
 # The include file search paths:
 set(CMAKE_RC_TARGET_INCLUDE_PATH
-  "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/include"
+  "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/include"
   "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt"
   "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared"
   "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um"
-  "C:/Program Files/LLVM/lib/clang/14.0.6/include"
+  "C:/Program Files/LLVM/lib/clang/15.0.7/include"
   )
 
 # The set of dependency files which are needed:

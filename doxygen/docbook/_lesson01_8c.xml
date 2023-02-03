@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__lesson01_8c" xml:lang="en-US">
+<title>Lesson01.c File Reference</title>
+<indexterm><primary>Lesson01.c</primary></indexterm>
+<para>
+
+<para>Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec OpenGL. </para>
+ 
+</para>
+<programlisting linenumbering="unnumbered">#include &lt;windows.h&gt;<?linebreak?>#include &lt;gl/gl.h&gt;<?linebreak?>#include &quot;resource.h&quot;<?linebreak?></programlisting>Include dependency graph for Lesson01.c:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_lesson01_8c__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__lesson01_8c_1ac7bef5d85e3dcd73eef56ad39ffc84a9">WIN32_LEAN_AND_MEAN</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>LRESULT CALLBACK <link linkend="__lesson01_8c_1af7de05620634745d22ea79adeef2514f">WindowProc</link> (HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)</para>
+
+<para>Fonction CALLBACK de traitement des messages Windows. </para>
+</listitem>
+            <listitem><para>void <link linkend="__lesson01_8c_1a3f1d8020cc3dcf306710f0e74385d3b4">EnableOpenGL</link> (HWND hwnd, HDC *hDC, HGLRC *hRC)</para>
+
+<para>Fonction EnableOpenGL permettant la configuration d&apos;OpenGL pour la fenêtre principale. </para>
+</listitem>
+            <listitem><para>void <link linkend="__lesson01_8c_1a90bd4ce009c06870ec5a57a16b8d7b3a">DisableOpenGL</link> (HWND hwnd, HDC hDC, HGLRC hRC)</para>
+
+<para>Fonction DisableOpenGL permettant la dé-configuration d&apos;OpenGL pour la fenêtre principale. </para>
+</listitem>
+            <listitem><para>int WINAPI <link linkend="__lesson01_8c_1a661c2abc03926acfaeb93b4ae7db4943">WinMain</link> (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)</para>
+
+<para>Fonction WinMain obligatoire pour les programmes utilisant l&apos;UI Windows. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Ouvre une simple fenêtre Windows et dessine un triangle muticolore en rotation avec OpenGL. </para>
+
+<para>Comments manageable by Doxygen</para>
+
+<para>Modified smoothly by Thierry DECHAIZE</para>
+
+<para>Paradigm : obtain one source (only one !) compatible for multiple free C Compilers and provide for all users an development environment on Windows (64 bits compatible), the great Code::Blocks manager (version 20.03), and don&apos;t use glaux.lib or glaux.dll.</para>
+
+<para>a) Mingw 32 bits, version officielle gcc 9.2.0 (very old !) : downloadable on <link xlink:href="http://sourceforge.net/projects/mingw/">http://sourceforge.net/projects/mingw/</link> (official) b) Mingw 64 bits included in new IDE Red Panda Dev-Cpp, version gcc 12.2.0 : donwloadable on <link xlink:href="https://sourceforge.net/projects/redpanda-cpp/files/">https://sourceforge.net/projects/redpanda-cpp/files/</link> c) Mingw 64 bits included in package Code::Blocks (version 20.03 with mingw), version gcc 11.2.0 : downloadable on <link xlink:href="http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/">http://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/</link> d) Mingw 32 and 64 bits packagés, version gcc 11.2.0 : downloadable on <link xlink:href="https://winlibs.com/">https://winlibs.com/</link> (and CLANG included in, 32 and 64 bits), two kits :<itemizedlist>
+<listitem>
+<para>winlibs-i686-posix-dwarf-gcc-12.2.0-llvm-15.0.7-mingw-w64ucrt-10.0.0-r4.7z (32 bits)</para>
+</listitem><listitem>
+<para>winlibs-x86_64-posix-seh-gcc-12.2.0-llvm-15.0.7-mingw-w64ucrt-10.0.0-r4.7z (64 bits) e) Cygwin64, 32 et 64 bits, version gcc 11.3.0 : downloadable on <link xlink:href="http://www.cygwin.com/install.html">http://www.cygwin.com/install.html</link> (tool for install : setup-x86_64.exe) f) TDM GCC, 32 et 64 bits, version 10.3.0 : downloadable on <link xlink:href="http://sourceforge.net/projects/TDM-GCC">http://sourceforge.net/projects/TDM-GCC</link> g) MSYS2 environnement MINGW32 and MINGW64, 32 et 64 bits, version de 2022 (msys2-x86_64-20230127.exe), version gcc 12.2.0 : downloadable on <link xlink:href="https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20230127.exe">https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20230127.exe</link> h) Visual Studio 2022, 32 et 64 bits, community edition for free : downloadable on <link xlink:href="https://visualstudio.microsoft.com/fr/thank-you-downloading-visual-studio/?sku=Community&amp;rel=17">https://visualstudio.microsoft.com/fr/thank-you-downloading-visual-studio/?sku=Community&amp;rel=17</link> i) Borland C/C++ 32 bits, version 5.5 : downloadable on <link xlink:href="https://developerinsider.co/download-and-install-borland-c-compiler-on-windows-10/">https://developerinsider.co/download-and-install-borland-c-compiler-on-windows-10/</link> j) Digital Mars Compiler C 32 bits version 8.57 : downloadable on <link xlink:href="http://www.digitalmars.com">http://www.digitalmars.com</link> (the more old compiler, the more bugged, dead branch !) k) OpenWatcom 32 et 64 bits, version 2.0 : downloadable on <link xlink:href="http://openwatcom.mirror.fr/">http://openwatcom.mirror.fr/</link> l) Lcc and Lcc64, 32 et 64 bits: downloadable <link xlink:href="http://www.cs.virginia.edu/~lcc-win32/">http://www.cs.virginia.edu/~lcc-win32/</link> m) PELLES C, 32 et 64 bits, version 11.0 : downloadable on <link xlink:href="http://www.smorgasbordet.com/pellesc/">http://www.smorgasbordet.com/pellesc/</link> o) CLANG, adossé aux environnements MINGW64 et MINGW32, version 15.0.7 (version gcc 12.0.0) : downloadable on <link xlink:href="https://winlibs.com/">https://winlibs.com/</link> p) CLANG, adossé aux environnements Visual Studio 2022 (+ kits Microsoft), version 15.0.7 : downloadable on <link xlink:href="https://releases.llvm.org/download.html">https://releases.llvm.org/download.html</link> q) CLANG de la version MSYS2, adossé aux environnements MINGW64 et MINGW32, version 15.0.7 (version gcc 12.2.0) : downloadable on <link xlink:href="https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220118.exe">https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20220118.exe</link> r) CLANG de la version CYGWIN, adossé aux environnements MINGW64 et MINGW32, version 8.0.0 (version gcc 11.3.0) : downloadable <link xlink:href="http://www.cygwin.com/install.html">http://www.cygwin.com/install.html</link> (tool for install : setup-x86_64.exe)</para>
+</listitem></itemizedlist>
+</para>
+
+<para>TDE -&gt; Add resource file end resource header for restitute version + icon OpenGL.ico for fun because versionning is important, same for freeware :-) !</para>
+
+<para>Date : 2023/02/03</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Jeff Molofee ( NeHe ) originely, adapted by Thierry Dechaize </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>2.0.1.0 </para>
+</formalpara>
+<formalpara><title>Date</title>
+
+<para>3 février 2023</para>
+</formalpara>
+Ce programme ne gére que deux événements : le clic sur le bouton &quot;Fermé&quot; de la fenêtre ou la sortie par la touche ESC. </para>
+</section>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__lesson01_8c_1ac7bef5d85e3dcd73eef56ad39ffc84a9"/><section>
+    <title>WIN32_LEAN_AND_MEAN</title>
+<indexterm><primary>WIN32_LEAN_AND_MEAN</primary><secondary>Lesson01.c</secondary></indexterm>
+<indexterm><primary>Lesson01.c</primary><secondary>WIN32_LEAN_AND_MEAN</secondary></indexterm>
+<para><computeroutput>#define WIN32_LEAN_AND_MEAN</computeroutput></para></section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__lesson01_8c_1a90bd4ce009c06870ec5a57a16b8d7b3a"/><section>
+    <title>DisableOpenGL()</title>
+<indexterm><primary>DisableOpenGL</primary><secondary>Lesson01.c</secondary></indexterm>
+<indexterm><primary>Lesson01.c</primary><secondary>DisableOpenGL</secondary></indexterm>
+<para><computeroutput>void DisableOpenGL (HWND hwnd, HDC hDC, HGLRC hRC)</computeroutput></para><para>
+
+<para>Fonction DisableOpenGL permettant la dé-configuration d&apos;OpenGL pour la fenêtre principale. </para>
+</para>
+
+<para>Comments manageable by Doxygen</para>
+
+<para>On libère les différents contextes : Device Context et Resource Context. 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hwnd</entry><entry>
+<para>L&apos;header de la fenêtre principale. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>hDC</entry><entry>
+<para>L&apos;header du Device Context. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>hRC</entry><entry>
+<para>L&apos;header du Resource Context sous OpenGL. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_lesson01_8c_a90bd4ce009c06870ec5a57a16b8d7b3a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="__lesson01_8c_1a3f1d8020cc3dcf306710f0e74385d3b4"/><section>
+    <title>EnableOpenGL()</title>
+<indexterm><primary>EnableOpenGL</primary><secondary>Lesson01.c</secondary></indexterm>
+<indexterm><primary>Lesson01.c</primary><secondary>EnableOpenGL</secondary></indexterm>
+<para><computeroutput>void EnableOpenGL (HWND hwnd, HDC * hDC, HGLRC * hRC)</computeroutput></para><para>
+
+<para>Fonction EnableOpenGL permettant la configuration d&apos;OpenGL pour la fenêtre principale. </para>
+</para>
+
+<para>Comments manageable by Doxygen</para>
+
+<para>Ce qui est important est le descripteur du format du pixel utilisé. 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hwnd</entry><entry>
+<para>L&apos;header de la fenêtre principale. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>hDC</entry><entry>
+<para>L&apos;header du Device Context. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>hRC</entry><entry>
+<para>L&apos;header du Resource Context sous OpenGL. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_lesson01_8c_a3f1d8020cc3dcf306710f0e74385d3b4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="__lesson01_8c_1af7de05620634745d22ea79adeef2514f"/><section>
+    <title>WindowProc()</title>
+<indexterm><primary>WindowProc</primary><secondary>Lesson01.c</secondary></indexterm>
+<indexterm><primary>Lesson01.c</primary><secondary>WindowProc</secondary></indexterm>
+<para><computeroutput>LRESULT CALLBACK WindowProc (HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)</computeroutput></para><para>
+
+<para>Fonction CALLBACK de traitement des messages Windows. </para>
+</para>
+
+<para>Comments manageable by Doxygen</para>
+
+<para>Traitement de la boucle infinie des messages Windows 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hwnd</entry><entry>
+<para>L&apos;header de la fenêtre principale. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>uMsg</entry><entry>
+<para>Un entier non signé. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>wParam</entry><entry>
+<para>Les paramétres en entrée. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>lParam</entry><entry>
+<para>Autres paramétres en entrée. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>LRESULT Un LRESULT donnant le status du traitement du message. </para>
+</formalpara>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_lesson01_8c_af7de05620634745d22ea79adeef2514f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="__lesson01_8c_1a661c2abc03926acfaeb93b4ae7db4943"/><section>
+    <title>WinMain()</title>
+<indexterm><primary>WinMain</primary><secondary>Lesson01.c</secondary></indexterm>
+<indexterm><primary>Lesson01.c</primary><secondary>WinMain</secondary></indexterm>
+<para><computeroutput>int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)</computeroutput></para><para>
+
+<para>Fonction WinMain obligatoire pour les programmes utilisant l&apos;UI Windows. </para>
+</para>
+
+<para>Comments manageable by Doxygen</para>
+
+<para>Creation de la fenetre principale 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>hInstance</entry><entry>
+<para>L&apos;header de l&apos;instance de la fenêtre principale. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>hPrevInstance</entry><entry>
+<para>L&apos;header de l&apos;instance de la fenêtre précédente (si besoin). </para>
+</entry>
+                            </row>
+                            <row>
+<entry>lpCmdLine</entry><entry>
+<para>Un pointeur sur la ligne de cammande. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>nCmdShow</entry><entry>
+<para>Un indicateur. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>int Le status du lancement et de la creation de la fenêtre (ok ou non). </para>
+</formalpara>
+</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_lesson01_8c_a661c2abc03926acfaeb93b4ae7db4943_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+</section>

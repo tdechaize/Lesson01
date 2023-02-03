@@ -63,7 +63,7 @@ Il faut procéder à l'installation de Code::Blocks version 20.03 intégrant Mingw,
 Cette mise à jour provient du site MINGW64 et le fichier à télécharger se denomme : mingw-18.0-without-git.exe.
 Il faut choisir comme répertoire d'installation C:\CodeBlocks
 
-On installe ainsi l'IDE Code::Blocks + un compilateur GCC 64 bits sur le répertoire suivant C:\CodeBlocks
+On installe ainsi l'IDE Code::Blocks + un compilateur GCC 64 bits sur le répertoire  C:\CodeBlocks
 	Puis, dans Code::Blocks, il faut modifier la configuration du nouveau compilateur dans le menu "Settings" puis "Compiler".
 	On procède alors à une copie du "nom du compilateur" référencé par défaut (GCC de Mingw), et on le renomme en indiquant 
 	par exemple "GNU GCC Compiler CB"
